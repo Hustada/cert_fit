@@ -1,42 +1,23 @@
-.column {
+/*.column {
 	border: 1px solid black;
 }
 
 .row {
 	border: 1px solid green;
 }
-
+*/
 
 /* Header shit */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('rose.jpg');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('rose.jpg');
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('barbell3.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('barbell3.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
     color: #fff;
     margin: 0;
-}
-
-.hero-text-box {
-	position: absolute;
-	width: 1140px;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-h1 {
-	color: #fff;
-	font-size: 200%;
-	margin: 0;
-	font-weight: 300;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	word-spacing: 3px;
-	margin-bottom: 20px;
 }
 
 
@@ -95,7 +76,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.98);
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
-    color: #fff;
+    color: #222;
 }
 
 .sticky .main-nav { margin-top: 18px; }
@@ -103,5 +84,5 @@ h1 {
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 16px 0;
-    color: #555;
+    color: #1a1d1f;
 }

@@ -11,36 +11,6 @@ $(document).ready(function() {
     }, {
       offset: '60px;'
     });
-
-    /* Scroll on buttons */
-    $('.js--scroll-to-order').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-order').offset().top}, 1000); 
-    });
-
-    $('.js--scroll-to-fan-pics').click(function () {
-       $('html, body').animate({scrollTop: $('.js--fan-pics').offset().top}, 1000); 
-    });
-
-    $('.js--scroll-to-author').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-author').offset().top}, 1000); 
-    });
-
-    $('.js--scroll-to-main-nav').click(function () {
-       $('html, body').animate({scrollTop: $('.js--top').offset().top}, 1000); 
-    });
-
-    $('.js--scroll-to-book').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-order').offset().top}, 1000); 
-    });
-    
-
-    $('.js--scroll-to-contact').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-contact').offset().top}, 1000); 
-    });
-
-    $('.js--scroll-to-subscribe').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-subscribe').offset().top}, 1000); 
-    });
     
     /* Navigation scroll */
     $(function() {
@@ -58,30 +28,6 @@ $(document).ready(function() {
       });
     });
 
-     /* Animations on scroll */
-    $('.js--wp-1').waypoint(function(direction) {
-        $('.js--wp-1').addClass('animated fadeIn');
-    }, {
-        offset: '105%'
-    });
-    
-    $('.js--wp-2').waypoint(function(direction) {
-        $('.js--wp-2').addClass('animated fadeInUp');
-    }, {
-        offset: '100%'
-    });
-    
-    $('.js--wp-3').waypoint(function(direction) {
-        $('.js--wp-3').addClass('animated fadeIn');
-    }, {
-        offset: '95%'
-    });
-    
-    $('.js--wp-4').waypoint(function(direction) {
-        $('.js--wp-4').addClass('animated pulse');
-    }, {
-        offset: '95%'
-    });
 
      /* Mobile navigation */
     $('.js--nav-icon').click(function() {
