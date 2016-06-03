@@ -1,8 +1,8 @@
 /* 
 
 BASE COLOR - #222
-BLACK SHADE FOR BACKGROUNDS - #121416
-WHITE SHADE FOR BACKGROUNDS - #e5e5e5
+BLACK SHADE FOR BACKGROUNDS - #121416 / CONTENT SHADE - WHITE
+WHITE SHADE FOR BACKGROUNDS - #e5e5e5 / CONTENT SHADE - #666
 CURRENT RED BASE COLOR(subject to change) - #db2c1a
 */
 
@@ -12,6 +12,11 @@ CURRENT RED BASE COLOR(subject to change) - #db2c1a
 
 .container {
   border: 1p solid red;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
 
 /*.row {
@@ -163,9 +168,13 @@ header {
 .section-services {
   background-color: #121416;
   color: #fff;
-  padding-top: 80px;
-  padding-bottom: 50px;
 }
 
 /* Testimonials Section */
 
+.section-testimonials {
+  background-color: #e5e5e5;
+  color: #666;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
