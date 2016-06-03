@@ -1,17 +1,27 @@
-/*.column {
-	border: 1px solid black;
+/* 
+
+BASE COLOR - #222
+SECONDARY COLOR - #1a1d1f
+*/
+
+.column {
+	border: 1px solid #fff;
 }
 
-.row {
-	border: 1px solid green;
+.container {
+  border: 1p solid red;
 }
-*/
+
+/*.row {
+	border: 1px solid green;
+}*/
+
 
 /* Header shit */
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('barbell3.jpg');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('barbell3.jpg');
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell3.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell3.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -19,6 +29,22 @@ header {
     color: #fff;
     margin: 0;
 }
+
+/*#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  line-height: 1;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}*/
 
 
 /* Nav */
@@ -85,4 +111,14 @@ header {
 .sticky .main-nav li a:visited {
     padding: 16px 0;
     color: #1a1d1f;
+}
+
+
+/* Services Section */
+
+.section-services {
+  background-color: #1a1d1f;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
