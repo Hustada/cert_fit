@@ -1,7 +1,8 @@
 /* 
 
 BASE COLOR - #222
-SECONDARY COLOR - #1a1d1f
+BLACK COLOR FOR BACKGROUNDS - #121416
+CURRENT RED BASE COLOR(subject to change) - #db2c1a
 */
 
 .column {
@@ -16,6 +17,48 @@ SECONDARY COLOR - #1a1d1f
 	border: 1px solid green;
 }*/
 
+/* Icons */
+
+.icon-big {
+  font-size: 350%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Headings */
+
+/* headings */
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #db2c1a;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
 
 /* Header shit */
 
@@ -110,15 +153,15 @@ header {
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 16px 0;
-    color: #1a1d1f;
+    color: #121416;
 }
 
 
 /* Services Section */
 
 .section-services {
-  background-color: #1a1d1f;
+  background-color: #121416;
   color: #fff;
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
