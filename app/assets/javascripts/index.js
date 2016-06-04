@@ -28,6 +28,12 @@ $(document).ready(function() {
       });
     });
 
+    /* Animations on scroll */
+    $('.js--section-services').waypoint(function(direction) {
+        $('.js--service-col').addClass('animated fadeIn');
+    }, {
+        offset: '70%'
+    });
 
      /* Mobile navigation */
     $('.js--nav-icon').click(function() {
