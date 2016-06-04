@@ -32,7 +32,14 @@ $(document).ready(function() {
     $('.js--section-services').waypoint(function(direction) {
         $('.js--service-col').addClass('animated fadeIn');
     }, {
-        offset: '70%'
+        offset: '80%'
+    });
+
+    /* Animations on scroll */
+    $('.js--section-about').waypoint(function(direction) {
+        $('.js--about').addClass('animated bounceInRight');
+    }, {
+        offset: '90%'
     });
 
      /* Mobile navigation */
