@@ -101,8 +101,9 @@ header {
 .main-nav {
 	list-style: none;
 	float: right;
-	margin-top: 55px;
+	margin-top: 30px;
 	word-spacing: 3px;
+  margin-bottom: 4.5rem;
 }
 
 .main-nav li {
@@ -116,7 +117,7 @@ header {
 	border-bottom: 2px solid #db2c1a;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size: 90%;
+	font-size: 115%;
     border-bottom: 2px solid transparent;
     -webkit-transition: border-bottom 0.2s;
     transition: border-bottom 0.2s;
@@ -170,7 +171,6 @@ header {
   background-size: cover;
   background-position: center;
   height: 100vh;
-  background-attachment: fixed;
   color: #fff;
   margin: 0;
 }
