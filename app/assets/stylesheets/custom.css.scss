@@ -6,13 +6,13 @@ WHITE SHADE FOR BACKGROUNDS - #e5e5e5 / CONTENT SHADE - #666
 CURRENT RED BASE COLOR(subject to change) - #db2c1a
 */
 
-.column {
+/*.column {
 	border: 1px solid #fff;
 }
 
 .container {
   border: 1p solid red;
-}
+}*/
 
 section {
   padding-top: 80px;
@@ -180,6 +180,10 @@ header {
 .section-services {
   background-color: #121416;
   color: #fff;
+}
+
+.about-us {
+  float: right;
 }
 
 /* Testimonials Section */
