@@ -19,6 +19,13 @@ section {
   padding-bottom: 50px;
 }
 
+/* Links */
+
+a {
+  color: #db2c1a;
+}
+
+
 /*.row {
 	border: 1px solid green;
 }*/
@@ -103,6 +110,7 @@ header {
 	margin-top: 30px;
 	word-spacing: 3px;
   margin-bottom: 4.5rem;
+  margin-left: 20px;
 }
 
 .main-nav li {
@@ -225,3 +233,16 @@ cite {
   background-color: #121416;
   color: #fff;
 }
+
+
+/* Facilities */
+
+.section-facilities {
+  background-color: #e5e5e5;
+  color: #666;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+
+/* Slider */

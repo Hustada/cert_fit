@@ -58,6 +58,18 @@ $(document).ready(function() {
         }        
     });
 
+    /* Fade carousel with slick */
+
+    $('.lazy').slick({
+      dots: true,
+      infinite: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      cssEase: 'linear'
+    });
+
+
+
     $('.flash-message').fadeIn('fast').delay(5000).fadeOut('fast');
     
 });
