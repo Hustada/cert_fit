@@ -84,6 +84,36 @@ header {
     color: #fff;
     margin: 0;
 }
+section-facilities .carousel-one {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell1.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  color: #fff;
+  margin: 0;
+}
+section-facilities .carousel-two {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell2.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  color: #fff;
+  margin: 0;
+}
+section-facilities .carousel-three {
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell3.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  color: #fff;
+  margin: 0;
+}
 
 /*#logo {
   float: left;
@@ -182,6 +212,10 @@ header {
   margin: 0;
 }
 
+.about {
+  padding-top: 100px;
+}
+
 /* Services Section */
 
 .section-services {
@@ -244,6 +278,10 @@ cite {
   padding-bottom: 50px;
 }
 
+footer {
+  background-color: #e5e5e5;
+  color: #666;
+}
 
 /* Slider */
 
