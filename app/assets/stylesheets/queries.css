@@ -53,7 +53,7 @@
     }
     
     .sticky {
-        height: initial;
+        height: 75px;
     }
 
     .button-box {
