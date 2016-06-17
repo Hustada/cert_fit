@@ -88,36 +88,7 @@ header {
     color: #fff;
     margin: 0;
 }
-section-facilities .carousel-one {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell1.jpg');
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell1.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  background-attachment: fixed;
-  color: #fff;
-  margin: 0;
-}
-section-facilities .carousel-two {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell2.jpg');
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell2.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  background-attachment: fixed;
-  color: #fff;
-  margin: 0;
-}
-section-facilities .carousel-three {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell3.jpg');
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell3.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  background-attachment: fixed;
-  color: #fff;
-  margin: 0;
-}
+
 
 /*#logo {
   float: left;
@@ -274,22 +245,60 @@ cite {
 
 /* Facilities */
 
-.section-facilities {
+.facilities.slick-slide {
   background-color: #e5e5e5;
   color: #666;
   padding-top: 80px;
-  padding-bottom: 50px;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym4.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
 }
+
+.facilities-2.slick-slide {
+  background-color: #e5e5e5;
+  color: #666;
+  padding-top: 80px;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym5.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym5.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.facilities-3.slick-slide {
+  background-color: #e5e5e5;
+  color: #666;
+  padding-top: 80px;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym6.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym6.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.facilities-4.slick-slide {
+  background-color: #e5e5e5;
+  color: #666;
+  padding-top: 80px;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym7.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym7.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.slick-dots {
+  color: black;
+}
+
+/* Footer */
 
 footer {
   background-color: #e5e5e5;
   color: #666;
 }
-
-/* Slider */
-
-
-/* Footer */
 
 .social-links {
   word-spacing: 4px;
