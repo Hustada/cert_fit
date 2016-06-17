@@ -3,7 +3,7 @@
 BASE COLOR - #222
 BLACK SHADE FOR BACKGROUNDS - #121416 / CONTENT SHADE - WHITE
 WHITE SHADE FOR BACKGROUNDS - #e5e5e5 / CONTENT SHADE - #666
-CURRENT RED BASE COLOR(subject to change) - #ba001b;
+CURRENT RED BASE COLOR(subject to change) - #d00000;
 */
 
 /*.column {
@@ -22,7 +22,7 @@ section {
 /* Links */
 
 a {
-  color: #ba001b;
+  color: #d00000;
 }
 
 
@@ -64,12 +64,16 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #ba001b;
+    background-color: #d00000;
     content: " ";
     width: 150px;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 50px;
+}
+
+h5 {
+  color: #d00000;
 }
 
 /* Header shit */
@@ -149,8 +153,8 @@ section-facilities .carousel-three {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-	color: #ba001b;
-	border-bottom: 2px solid #ba001b;
+	color: #d00000;
+	border-bottom: 2px solid #d00000;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 115%;
@@ -174,7 +178,7 @@ section-facilities .carousel-three {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #ba001b;
+    border-bottom: 2px solid #d00000;
 }
 
 /* Sticky Nav */
@@ -256,7 +260,7 @@ cite {
     font-size: 90%;
     margin-top: 25px;
     display: block;
-    color: #ba001b;
+    color: #d00000;
 }
 
 
@@ -303,7 +307,7 @@ footer {
 }
 
 .line-break {
-  border: 1px solid #ba001b;
+  border: 1px solid #d00000;
 }
 
 .top-footer {
@@ -316,6 +320,10 @@ footer {
 
 .footer-list {
   list-style: none;
+}
+
+.footer-col {
+  text-align: center;
 }
 
 /* social media colors */

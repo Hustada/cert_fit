@@ -158,7 +158,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #ba001b; }
+  color: #d00000; }
 a:hover {
   color: #ad2315; }
 
@@ -206,8 +206,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #ba001b;
-  border-color: #ba001b; }
+  background-color: #d00000;
+  border-color: #d00000; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -219,8 +219,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #870014;
-  border-color: #870014; }
+  background-color: #9d0000;
+  border-color: #9d0000; }
 
 
 /* Forms
