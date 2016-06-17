@@ -331,21 +331,36 @@ footer {
 .ion-social-twitter {
   color: #00aced;
 }
+.ion-social-twitter:hover {
+  color: #006e98;
+}
 
 .ion-social-facebook {
   color: #3b5998;
 }
+.ion-social-facebook:hover {
+  color: #283c67;
+}
 
 .ion-social-googleplus {
-  color: #dd4b39
+  color: #dd4b39;
+}
+.ion-social-googleplus:hover {
+  color: #b32f1f;
 }
 
 .ion-social-instagram {
   color: #517fa4;
 }
+.ion-social-instagram:hover {
+  color: #3b5c77;
+}
 
 .ion-social-youtube {
   color: #bb0000;
+}
+.ion-social-youtube:hover {
+  color: #700;
 }
 
 footer p {
