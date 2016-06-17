@@ -3,7 +3,7 @@
 BASE COLOR - #222
 BLACK SHADE FOR BACKGROUNDS - #121416 / CONTENT SHADE - WHITE
 WHITE SHADE FOR BACKGROUNDS - #e5e5e5 / CONTENT SHADE - #666
-CURRENT RED BASE COLOR(subject to change) - #db2c1a
+CURRENT RED BASE COLOR(subject to change) - #ba001b;
 */
 
 /*.column {
@@ -22,7 +22,7 @@ section {
 /* Links */
 
 a {
-  color: #db2c1a;
+  color: #ba001b;
 }
 
 
@@ -64,7 +64,7 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #db2c1a;
+    background-color: #ba001b;
     content: " ";
     width: 150px;
     margin: 0 auto;
@@ -149,8 +149,8 @@ section-facilities .carousel-three {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-	color: #db2c1a;
-	border-bottom: 2px solid #db2c1a;
+	color: #ba001b;
+	border-bottom: 2px solid #ba001b;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 115%;
@@ -174,7 +174,7 @@ section-facilities .carousel-three {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #c0392b;
+    border-bottom: 2px solid #ba001b;
 }
 
 /* Sticky Nav */
@@ -256,7 +256,7 @@ cite {
     font-size: 90%;
     margin-top: 25px;
     display: block;
-    color: #db2c1a;
+    color: #ba001b;
 }
 
 
@@ -303,7 +303,7 @@ footer {
 }
 
 .line-break {
-  border: 1px solid #db2c1a;
+  border: 1px solid #ba001b;
 }
 
 .top-footer {
@@ -317,4 +317,32 @@ footer {
 .footer-list {
   list-style: none;
 }
+
+/* social media colors */
+
+.ion-social-twitter {
+  color: #00aced;
+}
+
+.ion-social-facebook {
+  color: #3b5998;
+}
+
+.ion-social-googleplus {
+  color: #dd4b39
+}
+
+.ion-social-instagram {
+  color: #517fa4;
+}
+
+.ion-social-youtube {
+  color: #bb0000;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 20px;
+}
+
 

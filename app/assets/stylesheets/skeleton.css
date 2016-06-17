@@ -158,7 +158,7 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #db2c1a; }
+  color: #ba001b; }
 a:hover {
   color: #ad2315; }
 
@@ -206,8 +206,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #db2c1a;
-  border-color: #db2c1a; }
+  background-color: #ba001b;
+  border-color: #ba001b; }
 .button.button-primary:hover,
 button.button-primary:hover,
 input[type="submit"].button-primary:hover,
@@ -219,8 +219,8 @@ input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
   color: #FFF;
-  background-color: #ad2315;
-  border-color: #ad2315; }
+  background-color: #870014;
+  border-color: #870014; }
 
 
 /* Forms
