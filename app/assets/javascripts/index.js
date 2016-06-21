@@ -60,16 +60,16 @@ $(document).ready(function() {
 
     /* Fade carousel with slick */
 
-    $('.lazy').slick({
-      dots: true,
+    $('.section-facilities').slick({
+      fade: true,
       infinite: true,
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 2500,
       cssEase: 'linear'
     });
 
 
 
-    $('.flash-message').fadeIn('fast').delay(5000).fadeOut('fast');
+    // $('.flash-message').fadeIn('fast').delay(5000).fadeOut('fast');
     
 });
