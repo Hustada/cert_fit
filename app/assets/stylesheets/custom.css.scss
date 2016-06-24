@@ -4,15 +4,20 @@ BASE COLOR - #222
 BLACK SHADE FOR BACKGROUNDS - #121416 / CONTENT SHADE - WHITE
 WHITE SHADE FOR BACKGROUNDS - #e5e5e5 / CONTENT SHADE - #666
 CURRENT RED BASE COLOR(subject to change) - #d00000;
+TEXT COLOR FOR WHITE BACKGROUND #666
 */
 
-/*.column {
-	border: 1px solid #fff;
+.column {
+	border: 1px solid green;
 }
 
-.container {
+/*.container {
   border: 1p solid red;
 }*/
+
+.row {
+  border: 1px solid green;
+}
 
 section {
   padding-top: 60px;
@@ -26,9 +31,7 @@ a {
 }
 
 
-/*.row {
-	border: 1px solid green;
-}*/
+
 
 /* Icons */
 
@@ -164,7 +167,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.98);
+    background-color: #ededed; /* Try darker version => #e5e5e5 */
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
     color: #222;
@@ -175,7 +178,7 @@ header {
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     padding: 5px 0;
-    color: #121416;
+    color: #666;
 }
 
 /* About */
@@ -236,6 +239,10 @@ cite {
     margin-top: 25px;
     display: block;
     color: #d00000;
+}
+
+.consult {
+  text-align: center;
 }
 
 
