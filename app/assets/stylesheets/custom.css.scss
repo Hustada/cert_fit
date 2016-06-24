@@ -7,17 +7,22 @@ CURRENT RED BASE COLOR(subject to change) - #d00000;
 TEXT COLOR FOR WHITE BACKGROUND #666
 */
 
+/*
 .column {
 	border: 1px solid green;
-}
+}*/
 
 /*.container {
   border: 1p solid red;
 }*/
 
-.row {
+/*div {
   border: 1px solid green;
 }
+
+.row {
+  border: 1px solid green;
+}*/
 
 section {
   padding-top: 60px;
@@ -30,7 +35,10 @@ a {
   color: #d00000;
 }
 
-
+/* class for centering small things like buttons */
+.centering {
+  text-align: center;
+}
 
 
 /* Icons */
@@ -241,10 +249,9 @@ cite {
     color: #d00000;
 }
 
-.consult {
-  text-align: center;
+.consult-button {
+  margin-top: 40px;
 }
-
 
 /* Trainers */
 
