@@ -93,12 +93,22 @@ h5 {
 
 /* Header shit */
 
-header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell3.jpg');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell3.jpg');
+.header-1 {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell1.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
+    color: #fff;
+    margin: 0;
+}
+
+.about-page {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell1.jpg');
+    background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     color: #fff;
     margin: 0;
@@ -120,7 +130,6 @@ header {
     text-decoration: none;
   }
 }*/
-
 
 /* Nav */
 
@@ -165,6 +174,33 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #d00000;
+}
+
+
+/*alt main nav */
+
+.alt-main-nav {
+  list-style: none;
+  float: right;
+  margin-bottom: 4.5rem;
+  
+}
+
+.alt-main-nav li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.alt-main-nav li a:link,
+.alt-main-nav li a:visited {
+  color: #d00000;
+  border-bottom: 2px solid #d00000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 115%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
 }
 
 /* Sticky Nav */
@@ -357,6 +393,10 @@ footer {
 .footer-col {
   text-align: center;
 }
+
+/* social footer */
+
+
 
 /* social media colors */
 
