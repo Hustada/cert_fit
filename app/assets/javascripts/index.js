@@ -1,5 +1,8 @@
 $(document).ready(function() {
-    
+
+  /* This is sort of cool but might be overkill */
+  
+  $('.js--main-title').addClass('animated rollIn')
     
     /* For the sticky navigation  something here*/
     $('.js--section-services').waypoint(function(direction) {
@@ -29,6 +32,7 @@ $(document).ready(function() {
     });
 
     /* Animations on scroll */
+
     $('.js--section-services').waypoint(function(direction) {
         $('.js--service-col').addClass('animated fadeIn');
     }, {
