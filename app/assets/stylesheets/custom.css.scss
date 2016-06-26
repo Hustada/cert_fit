@@ -49,6 +49,15 @@ a {
   margin-bottom: 10px;
 }
 
+.fa fa-arrow-circle-o-down {
+  margin-top: 500px;
+  color: #d00000;
+}
+
+.header-arrow {
+  margin-top: 490px;
+}
+
 /* Headings */
 
 h1 {
@@ -94,8 +103,8 @@ h5 {
 /* Header shit */
 
 .header-1 {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell1.jpg');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell1.jpg');
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell3.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell3.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;

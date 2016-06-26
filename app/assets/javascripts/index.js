@@ -42,6 +42,18 @@ $(document).ready(function() {
         offset: '90%'
     });
 
+    $('.js--sign-up').waypoint(function(direction) {
+        $('.js--arrow').addClass('animated bounceInUp');
+    }, {
+        offset: '90%'
+    });
+
+    /* Waypoints */
+
+    $('.js--arrow').click(function () {
+       $('html, body').animate({scrollTop: $('.js--about').offset().top}, 1000); 
+    });
+
      /* Mobile navigation */
     $('.js--nav-icon').click(function() {
         var nav = $('.js--main-nav');
