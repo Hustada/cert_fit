@@ -70,6 +70,21 @@ $(document).ready(function() {
         }        
     });
 
+    $('.js--alt-nav-icon').click(function() {
+        var nav = $('.js--alt-main-nav');
+        var icon = $('.js--alt-nav-icon i');
+        
+        nav.slideToggle(200);
+        
+        if (icon.hasClass('ion-navicon')) {
+            icon.addClass('ion-close-round');
+            icon.removeClass('ion-navicon');
+        } else {
+            icon.addClass('ion-navicon');
+            icon.removeClass('ion-close-round');
+        }        
+    });
+
     /* Fade carousel with slick */
 
     $('.section-facilities').slick({
