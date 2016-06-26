@@ -13,8 +13,9 @@
 @media only screen and (max-width: 1199px) {
 
     /* iphone and ipad browsers don't allow fixed */
-    header,
-    .section-testimoinals {
+    .header-1,
+    .section-testimoinals,
+    .header-2 {
         background-attachment: initial;
     }
 }
@@ -65,7 +66,8 @@
     }
     
     /* iphone and ipad browsers don't allow fixed */
-    header,
+    .header-1,
+    .header-2,
     .section-testimoinals {
         background-attachment: initial;
     }
