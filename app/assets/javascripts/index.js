@@ -52,6 +52,18 @@ $(document).ready(function() {
         offset: '90%'
     });
 
+    $('.js--section-services').waypoint(function(direction) {
+        $('.consult-button').addClass('animated bounceInUp');
+    }, {
+        offset: '40%'
+    });
+
+    // $('.js--section-trainers').waypoint(function(direction) {
+    //     $('.consult-button-train').addClass('animated bounceInUp');
+    // }, {
+    //     offset: '40%'
+    // });
+
     /* Waypoints */
 
     $('.js--arrow').click(function () {
