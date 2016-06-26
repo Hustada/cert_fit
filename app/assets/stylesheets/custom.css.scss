@@ -7,8 +7,8 @@ CURRENT RED BASE COLOR(subject to change) - #d00000;
 TEXT COLOR FOR WHITE BACKGROUND #666
 */
 
-/*
-.column {
+
+/*.columns {
 	border: 1px solid green;
 }*/
 
@@ -18,9 +18,10 @@ TEXT COLOR FOR WHITE BACKGROUND #666
 
 /*div {
   border: 1px solid green;
-}
+}*/
 
-.row {
+
+/*.row {
   border: 1px solid green;
 }*/
 
@@ -450,5 +451,25 @@ footer p {
     background-attachment: fixed;
     color: #fff;
     margin: 0;
+}
+
+/* Benefits Section */
+
+.section-benefits {
+  background-color: #e5e5e5;
+  color: #666;
+}
+
+.ben-icon {
+  float: left;
+  margin-right: 25px;
+  clear: both;
+}
+
+.ben-chunk {
+  margin-left: 0px;
+  margin-top: 15px;
+  overflow:auto;
+  display:block;
 }
 
