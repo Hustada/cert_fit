@@ -221,6 +221,10 @@
         display: none;
     }
 
+    .centering .fa-arrow-circle-o-down {
+        display: none;
+    }
+
 }
 
 
