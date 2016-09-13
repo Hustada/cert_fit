@@ -1,11 +1,9 @@
 $(document).ready(function() {
 
   /* This is sort of cool but might be overkill */
-  
-  $('.js--main-title').addClass('animated rollIn')
     
     /* For the sticky navigation  something here*/
-    $('.js--section-services').waypoint(function(direction) {
+    $('.js--section-trainers').waypoint(function(direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
         } else {
@@ -67,7 +65,7 @@ $(document).ready(function() {
     /* Waypoints */
 
     $('.js--arrow').click(function () {
-       $('html, body').animate({scrollTop: $('.js--about').offset().top}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--trainers').offset().top}, 1000); 
     });
 
      /* Mobile navigation */

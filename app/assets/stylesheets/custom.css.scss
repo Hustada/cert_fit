@@ -60,7 +60,7 @@ a {
 }
 
 .header-arrow {
-  margin-top: 490px;
+  margin-top: 400px;
 }
 
 /* Headings */
@@ -108,14 +108,18 @@ h5 {
 /* Header shit */
 
 .header-1 {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell3.jpg');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell3.jpg');
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('kratosbarbell.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('kratosbarbell.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
     color: #fff;
     margin: 0;
+}
+
+.main-title {
+  font-weight: 600;
 }
 
 
@@ -248,8 +252,8 @@ h5 {
 /* Services Section */
 
 .section-services {
-  background-color: #121416;
-  color: #fff;
+  background-color: #e5e5e5;
+  color: #666;
 }
 
 .about-us {
@@ -303,6 +307,7 @@ cite {
 .trainer-image {
   vertical-align: middle;
   width: 100%;
+  height: 220px;
 }
 
 
@@ -316,7 +321,7 @@ cite {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym4.jpg');
   background-size: cover;
   background-position: center;
-  height: 200px;
+  height: 500px;
 }
 
 .facilities-2.slick-slide {
@@ -327,7 +332,7 @@ cite {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym5.jpg');
   background-size: cover;
   background-position: center;
-  height: 200px;
+  height: 500px;
 }
 
 .facilities-3.slick-slide {
@@ -338,7 +343,7 @@ cite {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym6.jpg');
   background-size: cover;
   background-position: center;
-  height: 200px;
+  height: 500px;
 }
 
 .facilities-4.slick-slide {
@@ -349,7 +354,7 @@ cite {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym7.jpg');
   background-size: cover;
   background-position: center;
-  height: 200px;
+  height: 500px;
 }
 
 .paragraph-facilities {
