@@ -236,8 +236,8 @@ h5 {
 /* About */
 
 .section-about {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell2.jpg');
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('barbell2.jpg');
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('kratos_long.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('kratos_long.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -346,16 +346,6 @@ cite {
   height: 500px;
 }
 
-.facilities-4.slick-slide {
-  background-color: #e5e5e5;
-  color: #fff;
-  padding-top: 80px;
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('kratos_long.jpg');
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('kratos_long.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-}
 
 .paragraph-facilities {
   text-align: center;
@@ -457,8 +447,8 @@ footer {
 
 
 .about-page {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym10.jpg');
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('gym10.jpg');
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), image-url('kratos_wide.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), image-url('kratos_wide.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
