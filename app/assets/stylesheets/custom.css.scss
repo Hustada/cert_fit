@@ -316,12 +316,13 @@ cite {
   height: 220px;
 }*/
 
+
+/* adjust pic with height, center with margin 0 auto, then experiment works well */
 .cody-pic {
   background-image: image-url('codykratos.jpg');
   background-size: cover;
   background-position: center;
-  height: 250px;
-  width: 65%;
+  height: 380px;
   border-radius: 3px;
   margin: 0 auto;
 }
@@ -330,8 +331,7 @@ cite {
   background-image: image-url('jacobkratos.jpg');
   background-size: cover;
   background-position: center;
-  height: 250px;
-  width: 65%;
+  height: 380px;
   border-radius: 3px;
   margin: 0 auto;
 }
