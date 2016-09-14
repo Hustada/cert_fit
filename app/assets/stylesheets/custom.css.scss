@@ -118,6 +118,10 @@ h5 {
     margin: 0;
 }
 
+.title-center {
+  margin-top: 40px;
+}
+
 .main-title {
   font-weight: 600;
 }
@@ -152,6 +156,7 @@ h5 {
 .main-nav li {
 	display: inline-block;
 	margin-left: 40px;
+  font-weight: 700;
 }
 
 .main-nav li a:link,
