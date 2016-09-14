@@ -251,7 +251,7 @@ h5 {
 }
 
 .about {
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 /* Services Section */
@@ -259,10 +259,6 @@ h5 {
 .section-services {
   background-color: #e5e5e5;
   color: #666;
-}
-
-.about-us {
-  float: right;
 }
 
 /* Testimonials Section */
@@ -308,6 +304,10 @@ cite {
   background-color: #121416;
   color: #fff;
   padding-bottom: 55px;
+}
+
+.trainer-row {
+  margin-bottom: 15px;
 }
 
 /*.trainer-image {
