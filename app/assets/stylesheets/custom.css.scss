@@ -25,6 +25,13 @@ TEXT COLOR FOR WHITE BACKGROUND #666
   border: 1px solid green;
 }*/
 
+
+body, html {
+/* height: 100%!important; */
+overflow: auto!important;
+max-height: 100% !important;
+}
+
 section {
   padding-top: 60px;
   padding-bottom: 50px;
@@ -34,6 +41,11 @@ section {
 
 a {
   color: #d00000;
+}
+
+.learn-more {
+  font-weight: 700;
+  text-decoration: none;
 }
 
 /* class for centering small things like buttons */
@@ -224,8 +236,8 @@ h5 {
 /* About */
 
 .section-about {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), image-url('kratos_long.jpg');
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), image-url('kratos_long.jpg');
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), image-url('kratos_long.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), image-url('kratos_long.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -240,8 +252,8 @@ h5 {
 /* Services Section */
 
 .section-services {
-  background-color: #e5e5e5;
-  color: #666;
+  background-color: #121416;
+  color: #fff;
 }
 
 /* Testimonials Section */
@@ -371,8 +383,11 @@ cite {
 }
 
 footer {
-  background-color: #e5e5e5;
-  color: #666;
+  padding-top: 30px;
+  background-color: #121416;
+  color: #fff;
+  max-height: 100% !important;
+  height: 100% !important;
 }
 
 .social-links {
@@ -384,9 +399,7 @@ footer {
 }
 
 .index-footer {
-  padding-top: 30px;
-  background-color: #121416;
-  color: #fff; 
+
 }
 
 .line-break {
@@ -415,9 +428,12 @@ footer {
 }
 
 
-/* social footer */
+/* pricing */
 
-
+.section-packages {
+  background-color: #e5e5e5;
+  color: #666;
+}
 
 /* social media colors */
 

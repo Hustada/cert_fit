@@ -33,8 +33,23 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
  <%= render 'shared/header' %>
 
+  <section class="section-about js--section-about">
+  <div class="container">
+      <div class="row">
+        <div class="twelve columns
+         about-us">
+        <div class="about js--about">
+            <h3>Who We Are</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet nisl id venenatis aliquam. Phasellus ullamcorper eget enim vel aliquam. Integer vel tincidunt risus, sed ultrices   tellus. Proin sit amet aliquet orci, in scelerisque risus. Aenean placerat bibendum ex quis pharetra. Aliquam erat volutpat. Mauris tempor ex sed eleifend ultricies. Proin gravida mauris quis odio porttitor, et vulputate lorem pulvinar. Nam sed tortor felis. Cras sit amet scelerisque tellus <br><%=link_to 'learn more', about_path, class: 'learn-more' %>
+            </p>
+        </div>    
+        <div>
+      </div>
+  </div>
+</section>
+
  <section class="section-trainers js--section-trainers">
-  
     <center><h2>Meet Our Trainers</h2></center>
     <div class="container">
       <div class="row trainer-row">
@@ -102,93 +117,12 @@
         </div>
 </section>
 
-<section class="section-about js--section-about">
+<section class="section-packages js--section-packages">
   <div class="container">
-      <div class="row">
-        <div class="twelve columns about-us">
-        <div class="about js--about">
-            <h3>Who We Are</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet nisl id venenatis aliquam. Phasellus ullamcorper eget enim vel aliquam. Integer vel tincidunt risus, sed ultrices   tellus. Proin sit amet aliquet orci, in scelerisque risus. Aenean placerat bibendum ex quis pharetra. Aliquam erat volutpat. Mauris tempor ex sed eleifend ultricies. Proin gravida mauris quis odio porttitor, et vulputate lorem pulvinar. Nam sed tortor felis. Cras sit amet scelerisque tellus <br><%=link_to 'learn more', about_path %>
-            </p>
-        </div>    
-        <div>
-      </div>
-  </div>
-</section>
-
-<section class="section-testimonials js--section-testimonials">
-  <div class="container">
-    <center><h2>Testimonials</h2></center>
-      <div class="row">
-        <div class="four columns">
-            <blockquote>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet nisl id venenatis aliquam. Phasellus ullamcorper eget enim vel aliquam. Integer vel tincidunt risus, sed ultrices tellus. Proin sit amet aliquet orci, in scelerisque risus. Aenean placerat bibendum ex quis pharetra. Aliquam erat volutpat. Mauris tempor ex sed eleifend ultricies. Proin gravida mauris quis odio porttitor, et vulputate lorem pulvinar. Nam sed tortor felis. Cras sit amet scelerisque tellus.
-            </blockquote>
-            <cite>- Mike F</cite>
-        </div>
-        <div class="four columns">
-            <blockquote>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet nisl id venenatis aliquam. Phasellus ullamcorper eget enim vel aliquam. Integer vel tincidunt risus, sed ultrices tellus. Proin sit amet aliquet orci, in scelerisque risus. Aenean placerat bibendum ex quis pharetra. Aliquam erat volutpat. Mauris tempor ex sed eleifend ultricies. Proin gravida mauris quis odio porttitor, et vulputate lorem pulvinar. Nam sed tortor felis. Cras sit amet scelerisque tellus.
-            </blockquote>
-            <cite>- Rob Riches</cite>
-        </div>
-        <div class="four columns">
-            <blockquote>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet nisl id venenatis aliquam. Phasellus ullamcorper eget enim vel aliquam. Integer vel tincidunt risus, sed ultrices   tellus. Proin sit amet aliquet orci, in scelerisque risus. Aenean placerat bibendum ex quis pharetra. Aliquam erat volutpat. Mauris tempor ex sed eleifend ultricies. Proin gravida mauris quis odio porttitor, et vulputate lorem pulvinar. Nam sed tortor felis. Cras sit amet scelerisque tellus.
-            </blockquote>
-            <cite>- Greg Plitt</cite>
-        <div>
-      </div>
-  </div>
-</section>
-
-<section class="section-benefits">
-  <div class="container">
-  <h2>Benefits</h2>
+  <h2>Pricing</h2>
     <div class="row">
-      <div class="six columns">
-      <i class="ion-ios-americanfootball icon-big ben-icon"></i>
-        <div class="ben-chunk">
-          <h5>LOREM IPSUM DOLOR SIT</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet nisl id venenatis aliquam. Phasellus ullamcorper eget enim vel aliquam. Integer vel tincidunt risus, sed ultrices   tellus.
-            </p>
-        </div>
-        <i class="ion-ios-pulse icon-big ben-icon"></i>
-         <div class="ben-chunk">
-          <h5>PROIN ALIQUAM FACILISIS</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet nisl id venenatis aliquam. Phasellus ullamcorper eget enim vel aliquam. Integer vel tincidunt risus, sed ultrices   tellus.
-            </p>
-        </div>
-        <i class="ion-ios-bookmarks icon-big ben-icon"></i>
-        <div class="ben-chunk">
-          <h5>VESTIBULUM NEC NIBH AT</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet nisl id venenatis aliquam. Phasellus ullamcorper eget enim vel aliquam. Integer vel tincidunt risus, sed ultrices   tellus.
-            </p>
-        </div>
-      </div>
-      <div class="six columns">
-      <i class="ion-ios-body icon-big ben-icon"></i>
-        <div class="ben-chunk">
-          <h5>CONDIMENTUM IMPERDIET</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet nisl id venenatis aliquam. Phasellus ullamcorper eget enim vel aliquam. Integer vel tincidunt risus, sed ultrices   tellus.
-            </p>
-        </div>
-        <i class="ion-ios-bookmarks icon-big ben-icon"></i>
-         <div class="ben-chunk">
-          <h5>PROIN EGET ODIO EGET TURPIS</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet nisl id venenatis aliquam. Phasellus ullamcorper eget enim vel aliquam. Integer vel tincidunt risus, sed ultrices   tellus.
-            </p>
-        </div>
-        <i class="ion-ios-time icon-big ben-icon"></i>
-        <div class="ben-chunk">
-          <h5>AENEAN EGET EX AT TURPIS</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet nisl id venenatis aliquam. Phasellus ullamcorper eget enim vel aliquam. Integer vel tincidunt risus, sed ultrices   tellus.
-            </p>
-        </div>
-      </div>
-    </div>
-  </div>
+      <p>Something here</p>
+    </div> 
 </section>
 
 <%= render 'shared/footer' %>

@@ -3,7 +3,7 @@ $(document).ready(function() {
   /* This is sort of cool but might be overkill */
     
     /* For the sticky navigation  something here*/
-    $('.js--section-trainers').waypoint(function(direction) {
+    $('.js--section-about').waypoint(function(direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
         } else {
@@ -65,11 +65,11 @@ $(document).ready(function() {
     /* Waypoints */
 
     $('.js--arrow').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-trainers').offset().top}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--section-about').offset().top}, 1000); 
     });
 
-    $('.js--scroll-to-pricing').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-pricing').offset().top}, 1000); 
+    $('.js--scroll-to-packages').click(function () {
+       $('html, body').animate({scrollTop: $('.js--section-packages').offset().top}, 1000); 
     });
 
     $('.js--scroll-to-trainers').click(function () {
