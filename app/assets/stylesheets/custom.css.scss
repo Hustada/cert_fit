@@ -214,15 +214,15 @@ h5 {
 /* Sticky Nav */
 
 .sticky {
-    position: fixed;
-    height: 70px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #ededed; /* Try darker version => #e5e5e5 */
-    box-shadow: 0 2px 2px #666;
-    z-index: 9999;
-    color: #222;
+  position: fixed;
+  height: 70px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ededed; /* Try darker version => #e5e5e5 */
+  box-shadow: 0 2px 2px #666;
+  z-index: 9999;
+  color: #222;
 }
 
 .sticky .main-nav { margin-top: 25px; }
