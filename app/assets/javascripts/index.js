@@ -65,7 +65,11 @@ $(document).ready(function() {
     /* Waypoints */
 
     $('.js--arrow').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-about').offset().top}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--section-trainers').offset().top}, 1000); 
+    });
+
+    $('.js--scroll-to-trainers').click(function () {
+       $('html, body').animate({scrollTop: $('.js--section-trainers').offset().top}, 1000); 
     });
 
      /* Mobile navigation */
