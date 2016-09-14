@@ -68,6 +68,10 @@ $(document).ready(function() {
        $('html, body').animate({scrollTop: $('.js--section-trainers').offset().top}, 1000); 
     });
 
+    $('.js--scroll-to-pricing').click(function () {
+       $('html, body').animate({scrollTop: $('.js--section-pricing').offset().top}, 1000); 
+    });
+
     $('.js--scroll-to-trainers').click(function () {
        $('html, body').animate({scrollTop: $('.js--section-trainers').offset().top}, 1000); 
     });

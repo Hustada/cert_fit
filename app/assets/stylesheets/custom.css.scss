@@ -363,6 +363,10 @@ cite {
 
 /* Footer */
 
+.follow-us-header {
+  margin-bottom: initial;
+}
+
 footer {
   background-color: #e5e5e5;
   color: #666;
@@ -377,8 +381,7 @@ footer {
 }
 
 .index-footer {
-  padding-top: 60px;
-  padding-bottom: 50px;
+  padding-top: 30px;
   background-color: #121416;
   color: #fff; 
 }
@@ -387,13 +390,7 @@ footer {
   border: 1px solid #d00000;
 }
 
-.top-footer {
-  margin-bottom: 30px;
-}
 
-.bottom-footer {
-  margin-top: 30px;
-}
 
 /*.footer-list {
   list-style: none;
