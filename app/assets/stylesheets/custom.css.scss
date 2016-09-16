@@ -62,6 +62,10 @@ a {
   margin-bottom: 10px;
 }
 
+.ion-ios-nutrition {
+  float: left;
+}
+
 .fa fa-arrow-circle-o-down {
   margin-top: 500px;
   color: #d00000;
@@ -249,7 +253,15 @@ h5 {
   padding-top: 135px;
 }
 
-/* Services Section */
+/* Nutrition Section */
+
+.diet-title {
+  text-align: center;
+}
+
+.nutrition-paragraph {
+  padding-left: 60px;
+}
 
 .section-services {
   background-color: #121416;
