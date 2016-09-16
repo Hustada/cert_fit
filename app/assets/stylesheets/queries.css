@@ -254,6 +254,10 @@
         height: initial;
     }
 
+     .about-title {
+      text-align: center;
+    }
+
     /* iphone and ipad browsers don't allow fixed */
     header,
     .section-testimoinals {
