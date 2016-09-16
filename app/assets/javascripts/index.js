@@ -3,7 +3,7 @@ $(document).ready(function() {
   /* This is sort of cool but might be overkill */
     
     /* For the sticky navigation  something here*/
-    $('.js--section-about').waypoint(function(direction) {
+    $('.js--section-trainers').waypoint(function(direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
         } else {
