@@ -1,6 +1,4 @@
 $(document).ready(function() {
-
-  /* This is sort of cool but might be overkill */
     
     /* For the sticky navigation  something here*/
     $('.js--section-trainers').waypoint(function(direction) {
@@ -55,12 +53,6 @@ $(document).ready(function() {
     }, {
         offset: '40%'
     });
-
-    // $('.js--section-trainers').waypoint(function(direction) {
-    //     $('.consult-button-train').addClass('animated bounceInUp');
-    // }, {
-    //     offset: '40%'
-    // });
 
     /* Waypoints */
 
@@ -135,8 +127,6 @@ $(document).ready(function() {
       collapsedHeight: 215,
       lessLink: '<a href="#">Read less</a>'
     });
-
-
 
     // $('.flash-message').fadeIn('fast').delay(5000).fadeOut('fast');
     

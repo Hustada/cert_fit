@@ -26,6 +26,17 @@ TEXT COLOR FOR WHITE BACKGROUND #666
 }*/
 
 
+html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
 section {
   padding-top: 60px;
   padding-bottom: 50px;
@@ -307,13 +318,6 @@ cite {
   margin-bottom: 15px;
 }
 
-/*.trainer-image {
-  vertical-align: middle;
-  width: 100%;
-  height: 220px;
-}*/
-
-
 /* adjust pic with height, center with margin 0 auto, then experiment works well */
 .cody-pic {
   background-image: image-url('codykratos.jpg');
@@ -392,8 +396,7 @@ footer {
   padding-top: 30px;
   background-color: #121416;
   color: #fff;
-  max-height: 100% !important;
-  height: 100% !important;
+  height: 300px;
 }
 
 .social-links {
