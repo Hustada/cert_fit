@@ -111,6 +111,8 @@ $(document).ready(function() {
         }        
     });
 
+    $
+
     /* Fade carousel with slick */
 
     $('.section-facilities').slick({
@@ -119,6 +121,19 @@ $(document).ready(function() {
       autoplay: true,
       autoplaySpeed: 2500,
       cssEase: 'linear'
+    });
+
+    /* Read more functionality */
+    $('.trainer-cody').readmore({
+      speed: 250,
+      collapsedHeight: 215,
+      lessLink: '<a href="#">Read less</a>'
+    });
+
+    $('.trainer-jacob').readmore({
+      speed: 250,
+      collapsedHeight: 215,
+      lessLink: '<a href="#">Read less</a>'
     });
 
 
