@@ -103,8 +103,6 @@ $(document).ready(function() {
         }        
     });
 
-    $
-
     /* Fade carousel with slick */
 
     $('.section-facilities').slick({
