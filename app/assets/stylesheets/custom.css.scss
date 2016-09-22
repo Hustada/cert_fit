@@ -519,3 +519,27 @@ footer {
   display:block;
 }
 
+/* packages section */
+
+.package-header {
+  background-color: #121416;
+  text-align: center;
+  color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td, tr {
+    border: 1px solid black;
+}
+
+.pricing-table td {
+  text-align: center;
+}
+
+.pricing-table th {
+  text-align: center;
+}
+
