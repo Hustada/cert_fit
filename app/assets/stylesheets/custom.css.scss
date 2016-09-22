@@ -25,16 +25,20 @@ TEXT COLOR FOR WHITE BACKGROUND #666
   border: 1px solid green;
 }*/
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 html {
   height: 100%;
-  overflow-x: hidden;
 }
 
 
 body {
   height: 100%;
-  overflow-x: hidden;
 }
 
 section {
