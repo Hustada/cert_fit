@@ -527,6 +527,17 @@ footer {
   color: #fff;
 }
 
+.make-it-slow {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.make-it-slow:hover {
+  box-shadow: 0 30px 60px rgba(0,0,0,.9);
+}
+
+
 table {
     border-collapse: collapse;
 }
@@ -543,3 +554,7 @@ table, th, td, tr {
   text-align: center;
 }
 
+.package-button {
+  color: #121416;
+  border-color: #121416;
+}
