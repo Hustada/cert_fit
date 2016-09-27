@@ -127,7 +127,7 @@ $(document).ready(function() {
     });
 
     $('#toggle').click(function () {
-      $('.expand').slideToggle(1000);
+      $('.expand').slideToggle(500);
       $(this).text( $(this).text() == 'View Training Packages' ? "Show Less" : "View Training Packages"); 
     });
 
