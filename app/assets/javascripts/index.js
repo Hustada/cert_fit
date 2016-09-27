@@ -126,6 +126,13 @@ $(document).ready(function() {
       lessLink: '<a href="#">Read less</a>'
     });
 
+    $('#toggle').click(function () {
+      $('.expand').slideToggle(1000);
+      $(this).text( $(this).text() == 'View Training Packages' ? "Show Less" : "View Training Packages"); 
+    });
+
+  
+
     // $('.flash-message').fadeIn('fast').delay(5000).fadeOut('fast');
     
 });
