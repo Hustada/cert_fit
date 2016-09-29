@@ -61,7 +61,7 @@ $(document).ready(function() {
     });
 
     $('.js--scroll-to-packages').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-packages').offset().top}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--group-member-packages').offset().top}, 1000); 
     });
 
     $('.js--scroll-to-trainers').click(function () {
@@ -129,6 +129,12 @@ $(document).ready(function() {
     $('#toggle').click(function () {
       $('.expand').slideToggle(500);
       $(this).text( $(this).text() == 'View Training Packages' ? "Show Less" : "View Training Packages"); 
+    });
+
+    $('#toggle-group').click(function () {
+      $('.expand-group').slideToggle(500);
+      $('.group-container').slideToggle(500);
+      $(this).text( $(this).text() == 'View Group Rates' ? "Show Less" : "View Group Rates"); 
     });
 
   

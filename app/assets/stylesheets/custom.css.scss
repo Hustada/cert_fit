@@ -3,7 +3,7 @@
 BASE COLOR - #222
 BLACK SHADE FOR BACKGROUNDS - #121416 / CONTENT SHADE - WHITE
 WHITE SHADE FOR BACKGROUNDS - #e5e5e5 / CONTENT SHADE - #666
-CURRENT RED BASE COLOR(subject to change) - #d00000;
+CURRENT RED BASE COLOR(subject to change) - #af111c;
 TEXT COLOR FOR WHITE BACKGROUND #666
 */
 
@@ -49,7 +49,7 @@ section {
 /* Links */
 
 a {
-  color: #d00000;
+  color: #af111c;
 }
 
 .learn-more {
@@ -77,7 +77,7 @@ a {
 
 .fa fa-arrow-circle-o-down {
   margin-top: 500px;
-  color: #d00000;
+  color: #af111c;
 }
 
 .fa-4x:hover {
@@ -117,7 +117,7 @@ h3 {
 h2:after {
     display: block;
     height: 2px;
-    background-color: #d00000;
+    background-color: #af111c;
     content: " ";
     width: 150px;
     margin: 0 auto;
@@ -126,7 +126,7 @@ h2:after {
 }
 
 h5 {
-  color: #d00000;
+  color: #af111c;
   text-transform: uppercase;
 }
 
@@ -169,8 +169,8 @@ h5 {
 
 .main-nav li a:link,
 .main-nav li a:visited {
-	color: #d00000;
-	border-bottom: 2px solid #d00000;
+	color: #af111c;
+	border-bottom: 2px solid #af111c;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 115%;
@@ -194,7 +194,7 @@ h5 {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #d00000;
+    border-bottom: 2px solid #af111c;
 }
 
 
@@ -214,8 +214,8 @@ h5 {
 
 .alt-main-nav li a:link,
 .alt-main-nav li a:visited {
-  color: #d00000;
-  border-bottom: 2px solid #d00000;
+  color: #af111c;
+  border-bottom: 2px solid #af111c;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 115%;
@@ -259,7 +259,7 @@ h5 {
 }
 
 .about {
-  padding-top: 135px;
+  padding-top: 180px;
 }
 
 /* Nutrition Section */
@@ -303,7 +303,7 @@ cite {
     font-size: 90%;
     margin-top: 25px;
     display: block;
-    color: #d00000;
+    color: #af111c;
 }
 
 .consult-button {
@@ -313,8 +313,8 @@ cite {
 /* Trainers */
 
 .section-trainers {
-  background-color: #121416;
-  color: #fff;
+  background-color: #e5e5e5;
+  color: #666;
   padding-bottom: 55px;
 }
 
@@ -330,6 +330,7 @@ cite {
   height: 430px;
   border-radius: 3px;
   margin: 0 auto;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
 }
 
 .jacob-pic {
@@ -339,6 +340,7 @@ cite {
   height: 430px;
   border-radius: 3px;
   margin: 0 auto;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
 }
 
 .trainer-cody, .trainer-jacob {
@@ -416,7 +418,7 @@ footer {
 }
 
 .line-break {
-  border: 1px solid #d00000;
+  border: 1px solid #af111c;
 }
 
 
@@ -537,13 +539,18 @@ footer {
   box-shadow: 0 30px 60px rgba(0,0,0,.9);
 }
 
+.fa.fa-users {
+  font-size: 50px;
+  margin-bottom: 35px;
+  color: #fff;
+}
 
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 table, th, td, tr {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .pricing-table td {
@@ -563,9 +570,6 @@ table, th, td, tr {
   margin-bottom: 20px;
 }
 
-
-/* readmore */
-
 .expand {
   display: none;
 }
@@ -573,4 +577,34 @@ table, th, td, tr {
 button.packages-button {
   color: #666;
   border-color: #666;
+}
+
+.section-group-packages {
+  color: #666;
+  background-color: #121416;
+}
+
+.expand-group {
+  display: none;
+}
+
+/* personal training */
+
+.fa.fa-user {
+  font-size: 50px;
+  margin-bottom: 35px;
+  color: #121416;
+}
+
+/* set background to fff so I can see the tables */
+.group-container {
+  background-color: #e5e5e5;
+  padding: 45px;
+  display: none;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.group-member-title {
+  color: #fff;
 }
