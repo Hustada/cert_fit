@@ -105,7 +105,8 @@
         <i class="fa fa-users" aria-hidden="true"></i>
       </div>
     <div class="centering personal-packages">
-    <%= link_to 'See Group Pricing', asset_path('group-sheet.pdf'), class: 'group-pricing-sheet' %>
+    <%= link_to 'See Group Packages', asset_path('group-sheet.pdf'), class: 'group-pricing-sheet' %><br><br>
+    <%= link_to 'See Membership Pricing', asset_path('member-sheet.pdf'), class: 'group-pricing-sheet' %>
       <button class="button group-packages-button" value="toggle" id="toggle-group">View Group Rates</button>
     </div>
   <div class="group-container">
@@ -323,11 +324,68 @@
                   <td>$12.50</td>
                 </tr>
               </tbody>    
-        </table>
+            </table>
+          </div>
+        </div>
       </div>
+      <div class="row">
+        <div class="twelve columns">
+          <table class="pricing-table make-it-slow">
+            <tr>
+              <th colspan="3">Monthly Pricing</th
+            </tr>
+            <tr>
+              <td>With Personal Training</td>
+              <td>Without Personal Training</td>
+              <td>Military, Firefighters, and Law Enforcement</td>
+            </tr>
+            <tr>
+              <td>$35</td>
+              <td>$50</td>
+              <td>$30</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <table class="pricing-table make-it-slow">
+            <tr>
+              <th colspan="3">Yearly Pricing</th
+            </tr>
+            <tr>
+              <td>With Personal Training</td>
+              <td>Without Personal Training</td>
+              <td>Military, Firefighters, and Law Enforcement</td>
+            </tr>
+            <tr>
+              <td>$385</td>
+              <td>$550</td>
+              <td>$330</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <table class="pricing-table make-it-slow">
+            <tr>
+              <th colspan="3">Family Pricing</th
+            </tr>
+            <tr>
+              <td>2 Members</td>
+              <td>3 Members</td>
+              <td>4 + Members</td>
+            </tr>
+            <tr>
+              <td>$5 off per Member/Month</td>
+              <td>$7 off per Member/Month</td>
+              <td>$10 off per Member/Month</td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
-    </div> 
   </div>
 </section>
 
@@ -479,6 +537,7 @@
           </div>
       </div>
     </div>
+
   </div>
 </section>
 
