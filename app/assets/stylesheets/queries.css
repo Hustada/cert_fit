@@ -66,12 +66,7 @@
     }
     
     /* iphone and ipad browsers don't allow fixed */
-   /* .header-1,
-    .header-2,
-    .section-testimoinals {
-      background-attachment: initial;
-    }
-*/
+
     .order-paragraph {
       margin-top: 55px;
     }
@@ -88,6 +83,12 @@
     section { padding: 30px 0; }
     p {
       text-align: center;
+    }
+
+    .header-1,
+    .header-2,
+    .section-testimoinals {
+      background-attachment: initial;
     }
     
     .row,
