@@ -36,6 +36,9 @@ html {
   height: 100%;
 }
 
+img {
+  height: 200px;
+}
 
 body {
   height: 100%;
@@ -611,4 +614,12 @@ button.packages-button {
 
 table {
   table-layout: fixed;
+}
+
+
+/* logo */
+
+.kratos-logo {
+  height: 160px;
+  margin-bottom: 50px;
 }
