@@ -10,14 +10,14 @@
 
 }
 
+/* iphone and ipad browsers don't allow fixed */
 @media only screen and (max-width: 1199px) {
-
-    /* iphone and ipad browsers don't allow fixed */
-    .header-1,
-    .section-testimoinals,
-    .header-2 {
-      background-attachment: initial;
-    }
+    
+/*  .header-1,
+  .section-testimoinals,
+  .header-2 {
+    background-attachment: initial;
+  }*/
 }
 
 @media only screen and (min-width: 768px) {
@@ -66,12 +66,12 @@
     }
     
     /* iphone and ipad browsers don't allow fixed */
-    .header-1,
+   /* .header-1,
     .header-2,
     .section-testimoinals {
       background-attachment: initial;
     }
-
+*/
     .order-paragraph {
       margin-top: 55px;
     }
@@ -204,11 +204,11 @@
 
 
     /* iphone and ipad browsers don't allow fixed */
-    header,
+  /*  header,
     .section-testimoinals {
       background-attachment: initial;
     }
-
+*/
     .testimonials-box {
         margin-top: -7%;
     }
