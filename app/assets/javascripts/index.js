@@ -72,6 +72,10 @@ $(document).ready(function() {
        $('html, body').animate({scrollTop: $('.js--footer').offset().top}, 1000); 
     });
 
+    $('.js--scroll-to-nutrition').click(function () {
+       $('html, body').animate({scrollTop: $('.js--section-nutrition').offset().top}, 1000); 
+    });
+
      /* Mobile navigation */
     $('.js--nav-icon').click(function() {
         var nav = $('.js--main-nav');
