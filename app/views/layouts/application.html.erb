@@ -8,6 +8,9 @@
   <%= csrf_meta_tags %>
    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 </head>
+	<% flash.each do |message_type, message| %>
+  <center><div class="flash-message <%= message_type %>"><%= message %></div></center>
+	<% end %>
 <body>
 
 <%= yield %>

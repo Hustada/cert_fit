@@ -7,16 +7,28 @@
               <li><a href="#nutrition" class="js--scroll-to-nutrition">Nutrition</a></li>
               <li><a href="#coaches" class="js--scroll-to-trainers">Coaches &amp; Trainers</a></li>
               <li><a href="#contact" class="js--scroll-to-footer">Contact</a></li>
+              <% if user_signed_in? %>
+              <li><%= current_user.email.downcase %></li>
+              <% end %>
           </ul>
           <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon"></i></a>
       </div>
     </nav>
     <div class="container">
-    <div class="title-center">
-      <%= image_tag("kratos_main_logo3.png", alt: 'kratoslogo', class: 'kratos-logo') %>
+      <div class="title-center">
+        <%= image_tag("kratos_main_logo3.png", alt: 'kratoslogo', class: 'kratos-logo') %>
+      </div>
     </div>
-    </center>
+    
     <div class="row">
-      <div class="centering"></div>
+      <div class="centering">
+      <% if user_signed_in? %>
+      <%=link_to 'Logout', destroy_user_session_path, method: "delete", :class => 'button' %>
+     <% else %>
+      <%=link_to 'Sign Up', new_user_registration_path, :class => 'button' %>
+      <%=link_to 'Sign In', new_user_session_path, :class => 'button' %>
+      </div>
     </div>
+    <% end %>
+
   </header>

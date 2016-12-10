@@ -33,3 +33,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+#authentication
+gem 'devise', '~> 4.2'

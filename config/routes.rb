@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -8,6 +9,8 @@ Rails.application.routes.draw do
   get '/about' => 'static_pages#about'
 
   get '/table' => 'static_pages#table'
+
+  delete 'logout', to: 'devise/sessions#destroy'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
