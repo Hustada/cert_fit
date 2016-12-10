@@ -1,6 +1,6 @@
  <header class="header-1">
     <nav>
-      <div class="container">
+      <div class="container nav-container">
           <ul class="main-nav js--main-nav">
               <li><%=link_to 'About', about_path, :class => "#" %></a></li>
               <li><a href="#programs" class="js--scroll-to-packages">Programs</a></li>
@@ -8,7 +8,9 @@
               <li><a href="#coaches" class="js--scroll-to-trainers">Coaches &amp; Trainers</a></li>
               <li><a href="#contact" class="js--scroll-to-footer">Contact</a></li>
               <% if user_signed_in? %>
-              <li><%= current_user.email.downcase %></li>
+              <li class="login"><%= current_user.email.downcase %></li>
+              <% else %>
+              <li><%=link_to 'Login', new_user_session_path, :class => 'login' %></li>
               <% end %>
           </ul>
           <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon"></i></a>
