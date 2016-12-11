@@ -1,0 +1,21 @@
+<div class="container devise-container">
+  <h2>Create a workout</h2>
+<div class="centering">
+  <%= form_for(@workout) do |f| %>
+    <div class="field">
+      <%= f.label :workout, 'What area or bodypart are we exercising?' %><br />
+      <%= f.text_field :workout %>
+    </div>
+
+    <div class="field">
+      <%= f.label :date, 'Enter the date' %>
+      <%= f.date_field :date %><br />
+    </div>
+
+    <div class="actions">
+      <%= f.submit "Create workout", :class => 'button' %>
+    </div>
+  <% end %>
+
+  </div>
+</div>

@@ -12,6 +12,8 @@ Rails.application.routes.draw do
 
   delete 'logout', to: 'devise/sessions#destroy'
 
+  resources :workouts
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
