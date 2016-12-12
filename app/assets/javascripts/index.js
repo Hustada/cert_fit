@@ -76,6 +76,10 @@ $(document).ready(function() {
        $('html, body').animate({scrollTop: $('.js--section-nutrition').offset().top}, 1000); 
     });
 
+    $('.js--scroll-to-products').click(function () {
+       $('html, body').animate({scrollTop: $('.js--section-products').offset().top}, 1000); 
+    });
+
      /* Mobile navigation */
     $('.js--nav-icon').click(function() {
         var nav = $('.js--main-nav');

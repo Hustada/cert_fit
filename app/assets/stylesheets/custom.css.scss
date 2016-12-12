@@ -74,6 +74,10 @@ a {
   margin-bottom: 10px;
 }
 
+i.fa.fa-shopping-cart {
+  font-size: 300%;
+}
+
 .ion-ios-nutrition {
   float: left;
 }
@@ -635,4 +639,11 @@ table {
   margin-top: 8%;
   height: 230px;
   margin-bottom: 50px;
+}
+
+/* products section */
+
+.kratos-products-button.button {
+  color: #666;
+  border: 1px solid #666;
 }
