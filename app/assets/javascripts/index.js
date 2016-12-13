@@ -57,15 +57,15 @@ $(document).ready(function() {
     /* Waypoints */
 
     $('.js--scroll-to-about').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-about').offset().top}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--section-about').offset().top - 10 }, 1000); 
     });
 
     $('.js--scroll-to-packages').click(function () {
-       $('html, body').animate({scrollTop: $('.js--group-member-packages').offset().top}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--group-member-packages').offset().top - 73 }, 1000); 
     });
 
     $('.js--scroll-to-trainers').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-trainers').offset().top}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--section-trainers').offset().top - 55 }, 1000); 
     });
 
     $('.js--scroll-to-footer').click(function () {
@@ -73,7 +73,7 @@ $(document).ready(function() {
     });
 
     $('.js--scroll-to-nutrition').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-nutrition').offset().top}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--section-nutrition').offset().top - 60 }, 1000); 
     });
 
     $('.js--scroll-to-products').click(function () {
