@@ -54,6 +54,36 @@ $(document).ready(function() {
         offset: '40%'
     });
 
+    $('.js--nutrition-col').waypoint(function(direction) {
+        $('.nutrition-paragraph').addClass('animated fadeInRightBig');
+    }, {
+      offset: '100%'
+    });
+
+    $('.js--wellness-col').waypoint(function(direction) {
+        $('.wellness-paragraph').addClass('animated fadeInLeftBig');
+    }, {
+      offset: '100%'
+    });
+
+    $('.js--performance-col').waypoint(function(direction) {
+        $('.performance-paragraph').addClass('animated fadeInRightBig');
+    }, {
+      offset: '100%'
+    });
+
+    $('.trigger-for-color').waypoint(function(direction) {
+        $('.js--programs-title').addClass('animated zoomIn');
+    }, {
+      offset: '100%'
+    });
+
+    $('.trigger-for-color').waypoint(function(direction) {
+        $('.js--programs-title').addClass('change-to-red');
+    }, {
+      offset: '100%'
+    });
+
     /* Waypoints */
 
     $('.js--scroll-to-about').click(function () {
