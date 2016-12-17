@@ -60,7 +60,7 @@ $(document).ready(function() {
        $('html, body').animate({scrollTop: $('.js--section-about').offset().top - 10 }, 1000); 
     });
 
-    $('.js--scroll-to-packages').click(function () {
+    $('.js--scroll-to-memberships').click(function () {
        $('html, body').animate({scrollTop: $('.js--group-member-packages').offset().top - 73 }, 1000); 
     });
 
@@ -72,7 +72,7 @@ $(document).ready(function() {
        $('html, body').animate({scrollTop: $('.js--footer').offset().top}, 1000); 
     });
 
-    $('.js--scroll-to-nutrition').click(function () {
+    $('.js--scroll-to-programs').click(function () {
        $('html, body').animate({scrollTop: $('.js--section-nutrition').offset().top - 60 }, 1000); 
     });
 
