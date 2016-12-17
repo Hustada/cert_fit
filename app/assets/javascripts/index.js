@@ -54,13 +54,43 @@ $(document).ready(function() {
         offset: '40%'
     });
 
+    $('.js--nutrition-col').waypoint(function(direction) {
+        $('.nutrition-paragraph').addClass('animated fadeInRightBig');
+    }, {
+      offset: '100%'
+    });
+
+    $('.js--wellness-col').waypoint(function(direction) {
+        $('.wellness-paragraph').addClass('animated fadeInLeftBig');
+    }, {
+      offset: '100%'
+    });
+
+    $('.js--performance-col').waypoint(function(direction) {
+        $('.performance-paragraph').addClass('animated fadeInRightBig');
+    }, {
+      offset: '100%'
+    });
+
+    $('.trigger-for-color').waypoint(function(direction) {
+        $('.js--programs-title').addClass('animated zoomIn');
+    }, {
+      offset: '100%'
+    });
+
+    $('.trigger-for-color').waypoint(function(direction) {
+        $('.js--programs-title').addClass('change-to-red');
+    }, {
+      offset: '100%'
+    });
+
     /* Waypoints */
 
     $('.js--scroll-to-about').click(function () {
        $('html, body').animate({scrollTop: $('.js--section-about').offset().top - 10 }, 1000); 
     });
 
-    $('.js--scroll-to-packages').click(function () {
+    $('.js--scroll-to-memberships').click(function () {
        $('html, body').animate({scrollTop: $('.js--group-member-packages').offset().top - 73 }, 1000); 
     });
 
@@ -72,7 +102,7 @@ $(document).ready(function() {
        $('html, body').animate({scrollTop: $('.js--footer').offset().top}, 1000); 
     });
 
-    $('.js--scroll-to-nutrition').click(function () {
+    $('.js--scroll-to-programs').click(function () {
        $('html, body').animate({scrollTop: $('.js--section-nutrition').offset().top - 60 }, 1000); 
     });
 
