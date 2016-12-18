@@ -71,6 +71,7 @@ GEM
     mini_portile2 (2.1.0)
     minitest (5.9.0)
     multi_json (1.12.1)
+    newrelic_rpm (3.17.2.327)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
@@ -78,6 +79,7 @@ GEM
     pg (0.18.4)
     pkg-config (1.1.7)
     polyglot (0.3.5)
+    puma (3.6.2)
     rack (1.5.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -155,7 +157,9 @@ DEPENDENCIES
   inline_svg
   jbuilder (~> 2.0)
   jquery-rails
+  newrelic_rpm
   pg
+  puma
   rails (= 4.1.4)
   rails_12factor
   readmorejs-rails

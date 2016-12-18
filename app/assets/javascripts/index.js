@@ -54,26 +54,68 @@ $(document).ready(function() {
         offset: '40%'
     });
 
-    /* Waypoints */
-
-    $('.js--arrow').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-about').offset().top}, 1000); 
+    $('.js--nutrition-col').waypoint(function(direction) {
+        $('.nutrition-paragraph').addClass('animated fadeInRightBig');
+    }, {
+      offset: '100%'
     });
 
-    $('.js--scroll-to-packages').click(function () {
-       $('html, body').animate({scrollTop: $('.js--group-member-packages').offset().top}, 1000); 
+    $('.js--wellness-col').waypoint(function(direction) {
+        $('.wellness-paragraph').addClass('animated fadeInLeftBig');
+    }, {
+      offset: '100%'
+    });
+
+    $('.js--performance-col').waypoint(function(direction) {
+        $('.performance-paragraph').addClass('animated fadeInRightBig');
+    }, {
+      offset: '100%'
+    });
+
+
+    $('.js--nutrition-col').waypoint(function(direction) {
+        $('.js--programs-title-nutrition').addClass('change-to-red animated pulse');
+    }, {
+      offset: '90%'
+    });
+
+
+    $('.js--wellness-col').waypoint(function(direction) {
+        $('.js--programs-title-wellness').addClass('change-to-red animated pulse');
+    }, {
+      offset: '90%'
+    });
+
+    $('.js--performance-col').waypoint(function(direction) {
+        $('.js--programs-title-performance').addClass('change-to-red animated pulse');
+    }, {
+      offset: '90%'
+    });
+
+    /* Waypoints */
+
+    $('.js--scroll-to-about').click(function () {
+       $('html, body').animate({scrollTop: $('.js--section-about').offset().top - 10 }, 1000); 
+    });
+
+    $('.js--scroll-to-memberships').click(function () {
+       $('html, body').animate({scrollTop: $('.js--group-member-packages').offset().top - 73 }, 1000); 
     });
 
     $('.js--scroll-to-trainers').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-trainers').offset().top}, 1000); 
+       $('html, body').animate({scrollTop: $('.js--section-trainers').offset().top - 55 }, 1000); 
     });
 
     $('.js--scroll-to-footer').click(function () {
        $('html, body').animate({scrollTop: $('.js--footer').offset().top}, 1000); 
     });
 
-    $('.js--scroll-to-nutrition').click(function () {
-       $('html, body').animate({scrollTop: $('.js--section-nutrition').offset().top}, 1000); 
+    $('.js--scroll-to-programs').click(function () {
+       $('html, body').animate({scrollTop: $('.js--section-nutrition').offset().top - 60 }, 1000); 
+    });
+
+    $('.js--scroll-to-products').click(function () {
+       $('html, body').animate({scrollTop: $('.js--section-products').offset().top}, 1000); 
     });
 
      /* Mobile navigation */
