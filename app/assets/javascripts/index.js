@@ -72,16 +72,24 @@ $(document).ready(function() {
       offset: '100%'
     });
 
-    $('.trigger-for-color').waypoint(function(direction) {
-        $('.js--programs-title').addClass('animated zoomIn');
+
+    $('.js--nutrition-col').waypoint(function(direction) {
+        $('.js--programs-title-nutrition').addClass('change-to-red animated pulse');
     }, {
-      offset: '100%'
+      offset: '90%'
     });
 
-    $('.trigger-for-color').waypoint(function(direction) {
-        $('.js--programs-title').addClass('change-to-red');
+
+    $('.js--wellness-col').waypoint(function(direction) {
+        $('.js--programs-title-wellness').addClass('change-to-red animated pulse');
     }, {
-      offset: '100%'
+      offset: '90%'
+    });
+
+    $('.js--performance-col').waypoint(function(direction) {
+        $('.js--programs-title-performance').addClass('change-to-red animated pulse');
+    }, {
+      offset: '90%'
     });
 
     /* Waypoints */
