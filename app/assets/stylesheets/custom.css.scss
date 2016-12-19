@@ -254,6 +254,11 @@ h5 {
     color: #666;
 }
 
+.sticky .main-nav li a:hover,
+.sticky .main-nav li a:active {
+    border-bottom: 2px solid #af111c;
+}
+
 /* About */
 
 .section-about {
