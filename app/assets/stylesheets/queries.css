@@ -254,7 +254,7 @@
     .contact-form {width: 100%; }
 
     .sticky {
-      height: initial;
+      height: 335px;
     }
 
      .about-title {
@@ -265,6 +265,11 @@
     header,
     .section-testimoinals {
       background-attachment: initial;  
+    }
+
+    .sticky .main-nav li a:hover,
+    .sticky .main-nav li a:active {
+      border-bottom: : transparent;
     }
 
     .section-trainers a {
