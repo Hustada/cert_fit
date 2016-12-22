@@ -254,7 +254,7 @@
     .contact-form {width: 100%; }
 
     .sticky {
-      height: 335px;
+      height: ;
     }
 
      .about-title {
@@ -269,7 +269,7 @@
 
     .sticky .main-nav li a:hover,
     .sticky .main-nav li a:active {
-      border-bottom: : transparent;
+      border-bottom: transparent;
     }
 
     .section-trainers a {
