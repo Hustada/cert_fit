@@ -172,6 +172,12 @@ $(document).ready(function() {
       lessLink: '<a href="#">Read less</a>'
     });
 
+    $('.trainer-david').readmore({
+      speed: 250,
+      collapsedHeight: 215,
+      lessLink: '<a href="#">Read less</a>'
+    });
+
     $('#toggle').click(function () {
       $('.expand').slideToggle(500);
       $(this).text( $(this).text() == 'View Training Packages' ? "Show Less" : "View Training Packages"); 

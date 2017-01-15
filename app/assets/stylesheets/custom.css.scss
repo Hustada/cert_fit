@@ -359,8 +359,18 @@ cite {
   box-shadow: 0 15px 30px rgba(0,0,0,0.5);
 }
 
-.trainer-cody, .trainer-jacob {
-  margin-top: 15px;
+.david-pic {
+  background-image: image-url('davidkratos.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 550px;
+  border-radius: 3px;
+  margin: 0 auto;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+.trainer-cody, .trainer-jacob, .trainer-david {
+  margin-top: 35px;
 }
 
 .trainer-centering {
