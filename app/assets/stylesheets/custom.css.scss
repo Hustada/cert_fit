@@ -31,6 +31,10 @@ TEXT COLOR FOR WHITE BACKGROUND #666
   box-sizing: border-box;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 
 html {
   height: 100%;
