@@ -17,4 +17,7 @@ end
 def table
 end
 
+def side_bar_test
+end
+
 end

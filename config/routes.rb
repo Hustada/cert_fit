@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get '/table' => 'static_pages#table'
 
+  get '/side-bar' => 'static_pages#side-bar-test'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
