@@ -1,10 +1,11 @@
 .side-bar-container {
 	margin: 0px;
 	padding: 0px;
+
 }
 
 #sidebar {
-	background: #121416;
+	background: #0a0c0d;
 	width: 200px;
 	height: 100%;
 	display: block;
@@ -18,10 +19,15 @@
 #sidebar.visible {
 	left: 0px;
 	transition: left 0.3s linear;
+	position: fixed;
+}
+
+#push-container.slide {
+	transition: width 0.3s linear;
 }
 
 .sidebar-list {
-	margin: 0px;
+	margin-top: 65px;
 	padding: 0px;
 }
 
@@ -53,7 +59,7 @@
 
 #sidebar-btn span {
 	height: 1px;
-	background: #111;
+	background: #fff;
 	margin-bottom: 5px;
 	display: block;
 }

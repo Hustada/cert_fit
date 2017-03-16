@@ -1,4 +1,5 @@
 <html lang="en">
+<%= render 'shared/sidebar' %>
 <head>
 
   <!-- Basic Page Needs
@@ -20,7 +21,8 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
- <%= render 'shared/header' %>
+<div id="main">
+ <%=render 'shared/header' %>
 <body>
 
 
@@ -102,28 +104,7 @@
       <a class="button button-primary consult-button" href="#">Get a consultation</a>
     </div> -->
 </section>
-<div class="section-facilities js--section-facilities">
-  <div class="facilities">
-    <!-- <h2>Amenities</h2>
-      <p class="paragraph-facilities">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-  </div>
-  <div class="facilities-2">
-    <h2>Cardio Equipment</h2>
-      <p class="paragraph-facilities">Trueform Treadmill, Row Machine, Elliptical, and Spin Bike</p>
-  </div>
-  <div class="facilities-3">
-    <h2>Glute Ham</h2>
-      <<!-- p class="paragraph-facilities">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet nisl id venenatis aliquam.</p> -->
-  </div>
-  <div class="facilities-4">
-    <h2>Free Weights</h2>
-      <p class="paragraph-facilities">Dumbells 5 - 127</p>
-  </div>
-  <div class="facilities-5">
-    <h2>Seven Barbell Racks</h2>
-      <!-- <p class="paragraph-facilities">Dumbells 5 - 127</p> -->
-  </div>
-</div>
+
 
 <section class="section-group-packages js--group-member-packages">
   <div class="container">
@@ -222,4 +203,5 @@
 
 </script>
 </body>
+</div>
 </html>

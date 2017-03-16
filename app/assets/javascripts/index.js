@@ -1,15 +1,15 @@
 $(document).ready(function() {
     
     /* For the sticky navigation  something here*/
-    $('.js--section-trainers').waypoint(function(direction) {
-        if (direction == "down") {
-            $('nav').addClass('sticky');
-        } else {
-            $('nav').removeClass('sticky');
-        }
-    }, {
-      offset: '60px;'
-    });
+    // $('.js--section-trainers').waypoint(function(direction) {
+    //     if (direction == "down") {
+    //         $('nav').addClass('sticky');
+    //     } else {
+    //         $('nav').removeClass('sticky');
+    //     }
+    // }, {
+    //   offset: '60px;'
+    // });
     
     /* Navigation scroll */
     $(function() {

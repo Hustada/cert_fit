@@ -1,19 +1,207 @@
-<div clas="side-bar-container">
-	<div id="sidebar">
-		<div class="slide-nav mobile-slide-nav">
-			<ul class="sidebar-list">
-				<li><a href="#">Coaches &amp; Trainers</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Memberships</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-			<div id="sidebar-btn">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-		</div>
-	</div>
+<html lang="en">
+<%= render 'shared/sidebar' %>
+<head>
 
-	
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Kratos Performance and Fitness</title>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css"> -->
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<div id="main">
+ <%=render 'shared/header' %>
+<body>
+
+
+  <section class="section-trainers js--section-trainers">
+    <center><h2 class="trainer-title">Meet Our Trainers</h2></center>
+    <div class="container">
+      <div class="row trainer-row">
+        <div class="four columns">
+        <div class="cody-pic"></div>
+            <p class="trainer-cody">
+                Cody Anthony (Co-Owner, Strength Coach)- Cody graduated from the University of Nebraska-Kearney with a BS in Exercise Science. While at Kearney, Cody played football for the Lopers, where he was the starting fullback, and three time Academic All-Conference. After graduating from UNK Cody volunteered as a strength coach for UNK's athletic programs. After a summer at UNK, Cody moved to Lincoln to volunteer as a strength coach for the University of Nebraska's Men's Basketball team. Cody holds his CSCS through the National Strength & Conditioning Association, as well as his USAW-L1SP through USA Weightlifting. During Cody's 3 years of working with collegiate athletes, he has worked with football, basketball, swimming/diving, volleyball, and wrestling. Cody has been married for 2 years to his wife Katie, and has beautiful, twin, 18 month old daughters (Skylar and Kenley.)
+            </p>
+        </div>
+        <div class="four columns">
+        <div class="jacob-pic"></div>
+            <p class="trainer-jacob">
+              Jacob Mertens (Co-Owner, Strength Coach, Registered Dietitian)- Jacob graduated from Peru State College with a BS in Sports Management and Exercise Science. While at PeruState, Jacob was also part of the football team where he was voted a team captain, a four-year starter, two time Academic All-American and All-Conference linebacker. Jacob then received his MS in Sports Science and Coach while working as a Graduate Assistant Strength and Conditioning Coach for the University of Akron football team. Jacob also went to school at the University of Nebraska for nutrition to become a registered dietitian. Jacob is also a Certified Strength and Conditioning Specialist through the NSCA. In total, Jacob has worked over 5 years as a collegiate strength and conditioning coach with working experience at the University of Idaho, University of Washington, Peru State College, Iowa State University, Monmouth University, University of Akron, University of Nebraska, University of Oregon, and the University of Alabama. During his career, Jacob has worked with athletes in a variety of sports including football, basketball, track, cross country, volleyball, soccer, crew, bowling, softball, baseball, field hockey, golf, and lacrosse.
+            </p>
+        </div>
+        <div class="four columns">
+        <div class="david-pic"></div>
+            <p class="trainer-david">
+                David Schwartz (Co-Owner, Strength and conditioning coach)- David graduated from the University of Nebraska with a BS in Exercise, nutrition, and health sciences. While at UNL, David worked for three years as an intern-assistant strength coach for the men’s basketball team. After graduation in 2014, David was hired as the Head Men’s basketball strength and conditioning coach at Doane College for two seasons, and also interned with the Nebraska football team in the summer of 2015. David holds his CSCS through the NSCA, and is an ACE certified personal trainer. In total, David has seven years of personal training and strength coaching experience. He has trained clients of all ages and ability levels with different goals as well as athletes in basketball, football, volleyball, baseball, hockey, track, soccer, golf, swimming, wrestling, and tennis.
+            </p>
+        </div>
+
+      </div>
+ </div>
+</section>
+
+  <section class="section-about js--section-about">
+  <div class="container">
+      <div class="row">
+        <div class="twelve columns
+         about-us">
+        <div class="about js--about">
+            <h3 class="about-title">Who We Are</h3>
+            <p>
+              Kratos defined- is the personification of strength and power in Greek mythology. That is our roots here at Kratos, we have an "Old School" mentality of training combined with the newest research to deliver a top-notch product. Our staff has over 10 years of combined collegiate strength and conditioning experience under some of the best coaches around the country. We also have our very own registered dietitian, who will educate clients based on their personal needs. Kratos works with everybody who wants to better themselves; whether that be the next star collegiate athlete, one of Lincoln's real hero's (Military, Police, Firefighters, EMT's), or somebody who wants to shed a few pounds.
+            </p>
+        </div>    
+        <div>
+      </div>
+  </div>
+</section>
+
+<section class="section-nutrition js--section-nutrition">
+  <div class="container">
+  <center><h2>Programs</h2></center><br>
+    <center><h4 class="programs-title js--programs-title-nutrition">Nutrition</h4></center>
+      <div class="row">
+        <div class="twelve columns js--nutrition-col">
+            <p class="nutrition-paragraph">
+                Kratos provides nutritional expertise through Jacob Mertens, who is a registered dietitian who educates clients on how to live a healthier life and increase athletic performance. Clients can get a personalized meal plan based around their specific needs, demands, and personal goals. Meal plans are constructed using a whole food approach with appropriate supplements as needed. The Kratos nutrition program is founded on current research and personal experience. Members will also benefit from regular handouts regarding trending topics and information. Contact our dietitian/strength & conditioning coach Jacob Mertens for questions or to book an appointment.
+            </p>
+        </div>
+      </div>
+      <center><h4 class="programs-title js--programs-title-wellness">Corporate Wellness</h4></center>
+      <div class="row">
+        <div class="twelve columns js--wellness-col">
+            <p class="wellness-paragraph">
+                Kratos works with businesses to identify specific health needs of employees by building a program around nutrition and exercise. Services include educational seminars, body measurements, fitness challenges, customized exercise programs and meal plans. Multiple studies have shown that businesses who offer wellness programs benefit from increased employee retention and productivity as well as decreased medical claim costs, insurance premiums, and absenteeism. Business wellness programs have been shown to have over a $2.50 return on investment and a decrease in $6 in health care savings for every dollar spent.
+            </p>
+        </div>
+      </div>
+      <center><h4 class="programs-title js--programs-title-performance">Sports Performance</h4></center>
+      <div class="row">
+        <div class="twelve columns js--performance-col">
+            <p class="performance-paragraph">
+               Kratos’ Certified Strength and Conditioning Specialists work with youth from age 5 up to adults training for their next competition. Our philosophy is based around increasing strength, power, mobility, and decreasing the risk of injury. This is achieved by focusing on form and technique before intensity. Exercise programs start with a base foundation for youth and increase in specificity as the athlete develops. Sports performance programs can be done through our group or personal training.
+            </p>
+            <p class="performance-paragraph"><div class="trigger-for-color"></div>
+                
+            </p>
+        </div>
+      </div>
+  </div>
+    <!-- <div class="centering">
+      <a class="button button-primary consult-button" href="#">Get a consultation</a>
+    </div> -->
+</section>
+
+
+<section class="section-group-packages js--group-member-packages">
+  <div class="container">
+    <h2 class="group-member-title">Membership Packages</h2>
+      <div class="centering">
+        <i class="fa fa-users" aria-hidden="true"></i>
+      </div>
+    <div class="centering personal-packages">
+    <%= link_to 'See Membership Pricing', asset_path('member-sheet.pdf'), class: 'group-pricing-sheet' %>
+      <button class="button group-packages-button" value="toggle" id="toggle-group">View Membership Rates</button>
+    </div>
+  <div class="group-container">
+  <div class="expand-group">   
+   
+      <div class="row">
+        <div class="twelve columns">
+          <table class="pricing-table make-it-slow">
+            <tr>
+              <th class="package-header" colspan="3">Monthly Pricing</th
+            </tr>
+            <tr>
+              <td>With Personal Training</td>
+              <td>Without Personal Training</td>
+              <td>Military, Firefighters, and Law Enforcement</td>
+            </tr>
+            <tr>
+              <td>$35</td>
+              <td>$50</td>
+              <td>$30</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <table class="pricing-table make-it-slow">
+            <tr>
+              <th class="package-header" colspan="3">Yearly Pricing</th
+            </tr>
+            <tr>
+              <td>With Personal Training</td>
+              <td>Without Personal Training</td>
+              <td>Military, Firefighters, and Law Enforcement</td>
+            </tr>
+            <tr>
+              <td>$385</td>
+              <td>$550</td>
+              <td>$330</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <table class="pricing-table make-it-slow">
+            <tr>
+              <th class="package-header" colspan="3">Family Pricing</th
+            </tr>
+            <tr>
+              <td>2 Members</td>
+              <td>3 Members</td>
+              <td>4 + Members</td>
+            </tr>
+            <tr>
+              <td>$5 off per Member/Month</td>
+              <td>$7 off per Member/Month</td>
+              <td>$10 off per Member/Month</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-products js--section-products">
+  <div class="container">
+    <h2>Store</h2>
+    <div class="centering">
+    <i class="fa fa-shopping-cart"></i><br><br>
+    <a href="https://clients.mindbodyonline.com/classic/home?studioid=442405" target="_blank" class="kratos-products-button button">Click here to see our selection</a>
+    </div>
+  </div>
+</section>
+
+<%= render 'shared/footer' %>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55146955-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
+</div>
+</html>
