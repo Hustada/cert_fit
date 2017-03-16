@@ -12,6 +12,7 @@
 	left: -200px;
 	top: 0px;
 	color: white;
+	position: fixed;
 	transition: left 0.3s linear;
 }
 
@@ -23,6 +24,7 @@
 .sidebar-list {
 	margin: 0px;
 	padding: 0px;
+	margin-top: 60px;
 }
 
 .sidebar-list li {
@@ -53,7 +55,7 @@
 
 #sidebar-btn span {
 	height: 1px;
-	background: #111;
+	background: #fff;
 	margin-bottom: 5px;
 	display: block;
 }
