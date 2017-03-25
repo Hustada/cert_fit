@@ -1,14 +1,14 @@
 $(document).ready(function() {
     
     /* For the sticky navigation  something here*/
-    $('.js--section-trainers').waypoint(function(direction) {
+    $('.js--kratos-logo').waypoint(function(direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
         } else {
             $('nav').removeClass('sticky');
         }
     }, {
-      offset: '60px;'
+      offset: '90px;'
     });
     
     /* Navigation scroll */
