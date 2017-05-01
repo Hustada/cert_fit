@@ -166,12 +166,6 @@ $(document).ready(function() {
       lessLink: '<a href="#">Read less</a>'
     });
 
-    $('.trainer-jacob').readmore({
-      speed: 250,
-      collapsedHeight: 215,
-      lessLink: '<a href="#">Read less</a>'
-    });
-
     $('.trainer-david').readmore({
       speed: 250,
       collapsedHeight: 215,
