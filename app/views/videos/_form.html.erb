@@ -1,0 +1,21 @@
+   <%= form_for @video, html: { multipart: true } do |f| %>
+	  <% if @video.errors.any? %>
+	    <div id="errors"
+	      <h2><%= pluralize(@video.errors.count, "error") %> prevented this video from being saved</h2>
+	      <ul>
+		    <% @video.errors.full_messages.each do |msg| %>
+		      <li><%= msg %></li>
+		      <% end %>
+	     </ul>
+	    </div>
+	<% end %>
+	
+		<%= f.label :title %>
+		<%= f.text_field :title, class: 'u-full-width' %>
+
+		<%= f.label :video %>
+		<%= f.text_field :video_url, class: 'u-full-width' %>
+	
+		<p><%=	f.submit %></p>
+
+	<% end %>

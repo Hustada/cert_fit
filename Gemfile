@@ -19,6 +19,8 @@ gem "font-ionicons-rails"
 gem "font-awesome-rails"
 gem 'readmorejs-rails'
 gem 'inline_svg'
+gem 'bootstrap-sass'
+gem 'sprockets-rails'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'spring',        group: :development

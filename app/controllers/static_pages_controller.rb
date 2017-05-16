@@ -17,7 +17,7 @@ end
 def table
 end
 
-def side_bar_test
+def video
 end
 
 end
