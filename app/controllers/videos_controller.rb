@@ -23,7 +23,7 @@ class VideosController < ApplicationController
 
 	def update
 		@video = Video.find(params[:id])
-		if @video.update(params[:video].permit(:titel, :video_url))
+		if @video.update(params[:video].permit(:title, :video_url))
 			redirect_to @video
 		else
 			render 'edit'
