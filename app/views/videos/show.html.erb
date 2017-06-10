@@ -4,12 +4,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <body>
       <section class="video-section">
-        <div class="video-container">
-          <div class="container">
-            <div class="videoWrapper"><%= embed(@video.video_url) %></div>
-        
-          </div>
-        </div
+        <% if @video.video_url.present? %>
+        <div class="container">
+          <h3 class="video-title"><%= @video.title %></h3>
+            <div class="video-container">
+              <div class="videoWrapper"><%= embed(@video.video_url) %></div>
+        <% end %>
+              </div>
+            </div>
+            <div class="button-container"><%=link_to 'delete video', (@video),
+                    method: :delete,
+                    class: "button video-button",
+                    data: {confirm: "Are you sure?" } %>
+        <%=link_to 'edit video', edit_video_path(@video), class: "button video-button" %>
+            </div>
+        </div>
       </section>
     </body>
   </head>
