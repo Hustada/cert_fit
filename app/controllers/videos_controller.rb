@@ -15,6 +15,8 @@ class VideosController < ApplicationController
 
 	def show
 		@video = Video.find(params[:id])
+		rescue ActiveRecord::RecordNotFound
+  	redirect_to root_url, :flash => { :error => "Video not found." }
 	end
 
 	def edit
