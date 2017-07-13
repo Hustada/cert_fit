@@ -13,4 +13,12 @@ class Video < ActiveRecord::Base
   	@@video_regexp.each { |m| return m.match(video_url)[1] unless m.nil? }
 	end
 
+	def previous_video
+		Video.where(["id < ?", id]).last
+	end
+
+	def next_video
+		Video.where(["id > ?", id]).first
+	end
+
 end

@@ -13,6 +13,10 @@ class VideosController < ApplicationController
 		end
 	end
 
+	def index
+		@videos = Video.all.order('created_at DESC').paginate(page: params[:page], per_page: 8)
+	end
+
 	def show
 		@video = Video.find(params[:id])
 		rescue ActiveRecord::RecordNotFound
