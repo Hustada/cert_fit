@@ -56,13 +56,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
-@media (min-width: 768px) {
-  p {
-    margin: 0 0 35px;
-    font-size: 20px;
-    line-height: 1.6;
-  }
-}
+
 a {
   color: #42DCA3;
   -webkit-transition: all 0.2s ease-in-out;
@@ -228,35 +222,15 @@ footer {
   padding-top: 10px;
 }
 
-/* About Section */
-
-#about {
-  padding-top: 70px;
-  padding-bottom: 50px;
-}
-
-.thumbnail img{
-    max-width: 100%; /* do not stretch the bootstrap column */
-}
-
-.img-wrapper{
-  width: 100%;
-  padding-bottom: 150%; /* your aspect ratio here! */
-  position: relative;
-}
-
-.img-wrapper img{
-  position: absolute;
-  top: 0; 
-  bottom: 0; 
-  left: 0; 
-  right: 0;
-  min-height: 100%; /* optional: if you want the smallest images to fill the .thumbnail */
-}
 
 /* Trainer Section */
 
 /* adjust pic with height, center with margin 0 auto, then experiment works well */
+
+#trainer {
+  color: #666;
+  background-color: #E4E5E4;
+}
 .cody-pic {
   background-image: image-url('codykratos.jpg');
   background-size: cover;
@@ -290,4 +264,42 @@ footer {
 .trainer-cody, .trainer-jacob, .trainer-david {
   margin-top: 35px;
 }
+
+
+/* About Section */
+
+
+.thumbnail img{
+    max-width: 100%; /* do not stretch the bootstrap column */
+}
+
+.img-wrapper{
+  width: 100%;
+  padding-bottom: 150%; /* your aspect ratio here! */
+  position: relative;
+}
+
+.img-wrapper img{
+  position: absolute;
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  right: 0;
+  min-height: 100%; /* optional: if you want the smallest images to fill the .thumbnail */
+}
+
+#about { 
+  background: 50% 0 fixed;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('rsz_kratos2.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('rsz_kratos2.jpg');
+  height: auto;
+  margin: 0 auto; 
+  width: 100%;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 100px 0;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  color: #fff;
+}
+
 
