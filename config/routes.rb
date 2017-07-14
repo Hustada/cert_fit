@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get '/table' => 'static_pages#table'
 
+  get '/new-index' => 'static_pages#new_index'
+
   resources :videos
 
   # Example of regular route:

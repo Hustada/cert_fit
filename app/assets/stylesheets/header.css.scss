@@ -113,22 +113,19 @@ footer {
   color: #fff;
 }
 
-/*.navbar-custom {
+.navbar-custom {
   background-color: #000;
   padding: 20px;
-}*/
+}
 
-#intro {
-  background: 50% 0 fixed;
-  height: 100%;  
-  margin: 0 auto; 
-  width: 100%;
+/*.intro {
+  height: 100%;
   text-align: center;
   color: #fff;
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('resized-kratos-header.jpg');
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('resized-kratos-header.jpg');
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('blackandwhiteabs.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('blackandwhiteabs.jpg');
   background-position: center;
-}
+}*/
 
 .brand-box {
   margin-top: 25%;
@@ -228,66 +225,25 @@ footer {
   padding-top: 10px;
 }
 
-/* About Section */
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    /*letter-spacing: 1px;*/
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
 
-#about {
-  padding-top: 70px;
-  padding-bottom: 50px;
+  .brand-heading {
+    font-size: 80px;
+  }
 }
 
-.thumbnail img{
-    max-width: 100%; /* do not stretch the bootstrap column */
-}
-
-.img-wrapper{
-  width: 100%;
-  padding-bottom: 150%; /* your aspect ratio here! */
-  position: relative;
-}
-
-.img-wrapper img{
-  position: absolute;
-  top: 0; 
-  bottom: 0; 
-  left: 0; 
-  right: 0;
-  min-height: 100%; /* optional: if you want the smallest images to fill the .thumbnail */
-}
-
-/* Trainer Section */
-
-/* adjust pic with height, center with margin 0 auto, then experiment works well */
-.cody-pic {
-  background-image: image-url('codykratos.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 635px;
-  border-radius: 3px;
-  margin: 0 auto;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
-}
-
-.nick-pic {
-  background-image: image-url('nickkratos-opted.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 635px;
-  border-radius: 3px;
-  margin: 0 auto;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
-}
-
-.david-pic {
-  background-image: image-url('davidkratos-opted.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 635px;
-  border-radius: 3px;
-  margin: 0 auto;
-  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
-}
-
-.trainer-cody, .trainer-jacob, .trainer-david {
-  margin-top: 35px;
-}
 
