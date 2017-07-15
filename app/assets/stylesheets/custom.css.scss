@@ -1,3 +1,17 @@
+
+/*
+BASE COLOR - #222
+BLACK SHADE FOR BACKGROUNDS - #030303 / CONTENT SHADE - WHITE
+WHITE SHADE FOR BACKGROUNDS - #e5e5e5 / CONTENT SHADE - #666
+CURRENT RED BASE COLOR(subject to change) - #af111c;
+TEXT COLOR FOR WHITE BACKGROUND #666
+*/
+
+.light-paragraph {
+  color: #666;
+  font-size: 1.1em;
+}
+
 .practice-color-1 {
   background-color: red;
 }
@@ -19,6 +33,7 @@ html {
 body {
   height: 100%;
   background-color: #000;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 .light-section {
@@ -65,6 +80,10 @@ h3 {
     text-transform: uppercase;
 }
 
+h4 {
+  text-transform: uppercase;
+}
+
 h2:after {
     display: block;
     height: 2px;
@@ -76,14 +95,15 @@ h2:after {
     margin-bottom: 50px;
 }
 
+
 h5 {
   color: #af111c;
   text-transform: uppercase;
 }
 
 p {
-  font-size: 1.5em;
-  line-height: 1.5;
+  line-height: 1.6;
+  font-weight: 400;
 }
 
 a {
@@ -325,10 +345,16 @@ footer {
   margin: 0 auto; 
   width: 100%;
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  padding: 100px 0;
-  padding-top: 70px;
-  padding-bottom: 50px;
   color: #fff;
+}
+
+/* Trainer Section */
+
+
+/* Javascript animations */
+
+.change-to-red {
+  color: #af111c;
 }
 
 
