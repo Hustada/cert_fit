@@ -180,7 +180,7 @@ $(document).ready(function() {
     $('#toggle-group').click(function () {
       $('.expand-group').slideToggle(500);
       $('.group-container').slideToggle(500);
-      $(this).text( $(this).text() == 'View Group Rates' ? "Show Less" : "View Group Rates"); 
+      $(this).text( $(this).text() == 'View Group Rates' ? "Show More" : "View Group Rates"); 
     });
 
   
