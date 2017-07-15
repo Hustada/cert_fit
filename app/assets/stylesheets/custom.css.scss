@@ -22,6 +22,10 @@ TEXT COLOR FOR WHITE BACKGROUND #666
   background-color: green;
 }
 
+.centering {
+  text-align: center;
+}
+
 
 
 html {
@@ -121,6 +125,12 @@ a:focus {
 .content-section {
   padding-top: 250px;
   padding-bottom: 250px;
+  width: 100%;
+}
+
+.smaller-content-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
   width: 100%;
 }
 
@@ -422,4 +432,132 @@ footer {
 #program {
   text-align: left;
 }
+
+
+/* packages section */
+
+.package-header {
+  background-color: #030303;
+  text-align: center;
+  color: #fff;
+}
+
+.make-it-slow {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.make-it-slow:hover {
+  box-shadow: 0 30px 60px rgba(0,0,0,.9);
+}
+
+.fa.fa-users {
+  font-size: 50px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td, tr {
+  border: 1px solid black;
+}
+
+.pricing-table td {
+  text-align: center;
+}
+
+.pricing-table th {
+  text-align: center;
+}
+
+.package-button {
+  color: #030303;
+  border-color: #030303;
+}
+
+.personal-packages {
+  margin-bottom: 20px;
+}
+
+.expand {
+  display: none;
+}
+
+button.packages-button {
+  color: #666;
+  border-color: #666;
+}
+
+.section-group-packages {
+  color: #666;
+  background-color: #030303;
+}
+
+.expand-group {
+  display: none;
+}
+
+/* personal training */
+
+.fa.fa-user {
+  font-size: 50px;
+  margin-bottom: 35px;
+  color: #666;
+}
+
+/* set background to fff so I can see the tables */
+.group-container {
+  background-color: #e5e5e5;
+  padding: 45px;
+  display: none;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.group-member-title {
+  color: #fff;
+}
+
+table {
+  table-layout: fixed;
+}
+
+
+/* logo */
+
+.kratos-logo {
+  margin-top: 15%;
+  height: 270px;
+  margin-bottom: 50px;
+}
+
+/* products section */
+
+.kratos-products-button.button {
+  color: #666;
+  border: 1px solid #666;
+}
+
+
+.section-products {
+  background-color: #e5e5e5;
+  color: #666;
+  padding: 10%;
+}
+
+.fa.fa-shopping-cart {
+  font-size: 50px;
+  margin-bottom: 35px;
+  color: #666;
+}
+
+
+
+
+
+
 
