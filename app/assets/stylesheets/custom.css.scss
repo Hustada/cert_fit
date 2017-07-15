@@ -350,6 +350,7 @@ footer {
   width: 100%;
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
   color: #fff;
+  text-align: left;
 }
 
 /* Javascript animations */
@@ -414,5 +415,11 @@ footer {
   background-size: cover;
   background-position: center;
   height: 500px;
+}
+
+/* Programs Section */
+
+#program {
+  text-align: left;
 }
 
