@@ -280,6 +280,10 @@ footer {
   color: #666;
   background-color: #E4E5E4;
 }
+
+#trainer a {
+  color: #af111c;
+}
 .cody-pic {
   background-image: image-url('codykratos.jpg');
   background-size: cover;
@@ -348,13 +352,67 @@ footer {
   color: #fff;
 }
 
-/* Trainer Section */
-
-
 /* Javascript animations */
 
 .change-to-red {
   color: #af111c;
 }
 
+
+/* Facilities */
+
+.facilities.slick-slide {
+  background-color: #e5e5e5;
+  color: #fff;
+  padding-top: 80px;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('kratos1.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('kratos1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.facilities-2.slick-slide {
+  background-color: #e5e5e5;
+  color: #fff;
+  padding-top: 80px;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('Kratos-2.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('Kratos-2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.facilities-3.slick-slide {
+  background-color: #e5e5e5;
+  color: #fff;
+  padding-top: 80px;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('Kratos-4.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('Kratos-4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.facilities-4.slick-slide {
+  background-color: #e5e5e5;
+  color: #fff;
+  padding-top: 80px;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('Kratos-12.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('Kratos-12.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+
+.facilities-5.slick-slide {
+  background-color: #e5e5e5;
+  color: #fff;
+  padding-top: 80px;
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('Kratos-7.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), image-url('Kratos-7.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
 
