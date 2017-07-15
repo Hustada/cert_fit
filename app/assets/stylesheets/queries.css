@@ -30,3 +30,13 @@
       text-align: center;
     }
 }
+
+@media only screen and (max-width: 475px) {
+
+    .kratos-logo {
+      height: 160px;
+      margin-bottom: 50px;
+      margin-top: 125px;
+    }
+  }
+}
