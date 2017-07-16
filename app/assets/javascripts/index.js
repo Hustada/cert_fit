@@ -183,13 +183,6 @@ $(document).ready(function() {
       $(this).text( $(this).text() == 'View Group Rates' ? "Show More" : "View Group Rates"); 
     });
 
-    $(window).resize(function () {
-    var viewportWidth = $(window).width();
-    if (viewportWidth < 600) {
-            $(".intro").addClass("desktop-intro");
-      }
-    });
-
   
 
     // $('.flash-message').fadeIn('fast').delay(5000).fadeOut('fast');

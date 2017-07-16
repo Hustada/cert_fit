@@ -1,0 +1,24 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.new-intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: image-url('resized-kratos-header.jpg');
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.new-inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+
+}
