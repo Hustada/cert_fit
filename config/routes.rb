@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   get '/new-index' => 'static_pages#new_index'
 
-  # get 'practice' => 'static_pages#practice'
+  get 'practice' => 'static_pages#practice'
  
   resources :videos
 end

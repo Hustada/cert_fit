@@ -183,6 +183,17 @@ $(document).ready(function() {
       $(this).text( $(this).text() == 'View Group Rates' ? "Show More" : "View Group Rates"); 
     });
 
+    $('.hiddenText').after('Read More')
+      $('p.readMore').click(function() {
+        $(this).prev().slideToggle(function() {
+          $(this).next(p.readMore).text(function (index, text) {
+            return ( text == 'Read More' ? 'Read Less' : 'Read More');
+          });
+        });
+
+        return false;
+      });
+
   
 
     // $('.flash-message').fadeIn('fast').delay(5000).fadeOut('fast');
