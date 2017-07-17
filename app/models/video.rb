@@ -1,5 +1,5 @@
 class Video < ApplicationRecord
-	validates :title, presence: true, length: { minimum: 15 }
+	validates :title, presence: true, length: { minimum: 8 }
 	validates :video_url, presence: true
 
 
