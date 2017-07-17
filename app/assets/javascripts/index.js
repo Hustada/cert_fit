@@ -159,18 +159,18 @@ $(document).ready(function() {
       cssEase: 'linear'
     });
 
-    /* Read more functionality */
-    $('.trainer-cody').readmore({
-      speed: 250,
-      collapsedHeight: 215,
-      lessLink: '<a href="#">Read less</a>'
-    });
+    // /* Read more functionality */
+    // $('.trainer-cody').readmore({
+    //   speed: 250,
+    //   collapsedHeight: 215,
+    //   lessLink: '<a href="#">Read less</a>'
+    // });
 
-    $('.trainer-david').readmore({
-      speed: 250,
-      collapsedHeight: 215,
-      lessLink: '<a href="#">Read less</a>'
-    });
+    // $('.trainer-david').readmore({
+    //   speed: 250,
+    //   collapsedHeight: 215,
+    //   lessLink: '<a href="#">Read less</a>'
+    // });
 
     $('#toggle').click(function () {
       $('.expand').slideToggle(500);

@@ -17,6 +17,10 @@
   .brand-heading {
     font-size: 80px;
   }
+
+  .footer-list {
+    margin-right: 5%;
+  }
 }
 
 /* Small phones to small tablets: from 481px to 767px */
