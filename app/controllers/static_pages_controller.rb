@@ -13,6 +13,10 @@ end
 def index
 end
 
+def new_index
+	@user = current_user
+end
+
 
 def table
 end
