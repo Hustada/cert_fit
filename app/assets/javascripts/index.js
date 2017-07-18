@@ -183,17 +183,29 @@ $(document).ready(function() {
       $(this).text( $(this).text() == 'View Group Rates' ? "Show More" : "View Group Rates"); 
     });
 
-    $('.hiddenText').after('Read More')
-      $('p.readMore').click(function() {
-        $(this).prev().slideToggle(function() {
-          $(this).next(p.readMore).text(function (index, text) {
-            return ( text == 'Read More' ? 'Read Less' : 'Read More');
-          });
-        });
+    $('#toggle-text-1').click(function () {
+      $('.toggle-paragraph-1').slideToggle(500);
+      $('.hidden-text-1').slideToggle(500);
+      $(this).text( $(this).text() == 'Read More' ? "Show Less" : "Read More"); 
+    });
 
-        return false;
-      });
+    $('#toggle-text-2').click(function () {
+      $('.toggle-paragraph-2').slideToggle(500);
+      $('.hidden-text-2').slideToggle(500);
+      $(this).text( $(this).text() == 'Read More' ? "Show Less" : "Read More"); 
+    });
 
+    $('#toggle-text-3').click(function () {
+      $('.toggle-paragraph-3').slideToggle(500);
+      $('.hidden-text-3').slideToggle(500);
+      $(this).text( $(this).text() == 'Read More' ? "Show Less" : "Read More"); 
+    });
+
+    // $('main-paragrah').click(function () {
+    //   $('.more').slideToggle(500);
+    //   $('.hidden-text').slideToggle(500);
+    //   $(this).text( $(this).text() == 'View Group Rates' ? "Show More" : "View Group Rates"); 
+    // });
   
 
     // $('.flash-message').fadeIn('fast').delay(5000).fadeOut('fast');
