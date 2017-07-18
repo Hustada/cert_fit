@@ -6,13 +6,13 @@ Devise.setup do |config|
   # confirmation, reset password and unlock tokens in the database.
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
-  # config.secret_key = 'a7821489f1733b4db457e5db5ade34b3d9e7ee2775104c726d3d408f42625c841306466096f19eb07af83595b1dc63bc6dbfa1e1139c179276feda295bf074ad'
+  config.secret_key = 'a7821489f1733b4db457e5db5ade34b3d9e7ee2775104c726d3d408f42625c841306466096f19eb07af83595b1dc63bc6dbfa1e1139c179276feda295bf074ad'
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
+  config.mailer_sender = 'admin@http://mighty-inlet-43642.herokuapp.com'
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
@@ -251,6 +251,28 @@ Devise.setup do |config|
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
+
+  if Rails.env.production?
+    config.omniauth :facebook, ENV["facebook_live_app_id"], ENV["facebook_live_app_secret"],
+    scope: 'email', info_fields: 'email,name'
+
+    config.omniauth :google_oauth2, ENV["google_live_app_id"], ENV["google_live_app_secret"],
+    { scope: 'email',
+      prompt: 'select_account',
+      access_type: 'online'
+    }
+
+  elsif Rails.env.development?
+    config.omniauth :facebook, ENV["facebook_app_id"], ENV["facebook_app_secret"],
+    scope: 'email', info_fields: 'email,name'
+
+    config.omniauth :google_oauth2, ENV["google_app_id"], ENV["google_app_secret"],
+    { scope: 'email',
+      label: 'Google',
+      prompt: 'select_account',
+      access_type: 'online'
+    }
+  end
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
