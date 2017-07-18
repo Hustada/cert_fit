@@ -1,0 +1,21 @@
+   <%= form_for @article, html: { multipart: true } do |f| %>
+	  <% if @article.errors.any? %>
+	    <div id="errors"
+	      <h2><%= pluralize(@article.errors.count, "error") %> prevented this article from being saved</h2>
+	      <ul>
+		    <% @article.errors.full_messages.each do |msg| %>
+		      <li><%= msg %></li>
+		      <% end %>
+	     </ul>
+	    </div>
+	<% end %>
+	
+		<%= f.label :title %>
+		<%= f.text_field :title, class: 'u-full-width' %>
+
+		<%= f.label :body %>
+		<%= f.text_area :body, class: 'u-full-width' %>
+	
+		<p><%=	f.submit %></p>
+
+	<% end %>
