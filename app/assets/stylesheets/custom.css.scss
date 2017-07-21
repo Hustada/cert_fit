@@ -166,6 +166,11 @@ a:focus {
   padding: 20px;
 }*/
 
+/* decrease font size on nav to prevent overlap on medium size screens */
+.navy {
+  font-size: 11px;
+}
+
 #intro {
   height: 100%;  
   width: 100%;

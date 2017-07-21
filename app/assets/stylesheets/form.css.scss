@@ -3,3 +3,30 @@
 .sign-panel {
 	margin-top: 10%;
 }
+
+input#user_remember_me {
+	margin-left: 130px;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+
+#form-body {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('kratosbarbell.jpg');
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), image-url('kratosbarbell.jpg');
+	display: table;
+	top: 0;
+	background-size: cover;
+}
+
+.blur-background {
+	filter: blur(5px);
+}

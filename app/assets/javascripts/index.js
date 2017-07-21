@@ -206,7 +206,6 @@ $(document).ready(function() {
     //   $('.hidden-text').slideToggle(500);
     //   $(this).text( $(this).text() == 'View Group Rates' ? "Show More" : "View Group Rates"); 
     // });
-  
 
     // $('.flash-message').fadeIn('fast').delay(5000).fadeOut('fast');
     
