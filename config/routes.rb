@@ -11,6 +11,11 @@ Rails.application.routes.draw do
   get '/new-index' => 'static_pages#new_index'
 
   # get 'practice' => 'static_pages#practice'
+
+  devise_scope :user do
+    get "/login" => "devise/sessions#new"
+    get "/logout" => "devise/sessions#destroy"
+  end
  
   resources :videos
 end
