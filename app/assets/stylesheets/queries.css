@@ -48,6 +48,10 @@
       padding-bottom: 100px;
     }
 
+    #trainer-image {
+      margin-top: 10%
+    }
+
 }
 
 @media only screen and (max-width: 475px) {
@@ -66,5 +70,8 @@
     .footer-list {
       margin-right: 10%;
     }
-  }
+
+    #trainer-image {
+      margin-top: 10%
+    }
 }

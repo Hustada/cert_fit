@@ -300,7 +300,6 @@ a:focus {
 
 /* adjust pic with height, center with margin 0 auto, then experiment works well */
 
-
 .trainer-box {
   text-align: center;
 }
@@ -312,6 +311,7 @@ a:focus {
 
 .read-more-link {
   margin-left: 35%;
+  margin-bottom: 30%;
 }
 
 #trainer {
@@ -321,6 +321,7 @@ a:focus {
 
 #trainer a {
   color: #af111c;
+  margin-bottom: 30px;
 }
 .cody-pic {
   background-image: image-url('codykratos.jpg');
