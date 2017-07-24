@@ -19,6 +19,11 @@
 <!-- beginning of trainer section -->
 <section id="trainer" data-speed="4" data-type="background" class="content-section light-paragraph">
 
+<!-- Modal overlays for trainer bios -->
+<%= render 'modals/cody_modal' %>
+<%= render 'modals/david_modal' %>
+<%= render 'modals/nick_modal' %>
+
   <div class="container">
     <h2>Trainers</h2>
     <div class="row">
@@ -26,30 +31,37 @@
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <%= image_tag("codykratos-opted.jpg", class: "img-responsive cody-img") %>
         <h4 class="trainer-title">Cody Anthony</h4>
+        <a value="toggle", class="read-more-link", data-toggle="modal" data-target="#codyModal">Read More</a>
       </div>
 
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <%= image_tag("davidkratos-opted.jpg", class: "img-responsive david-img") %>
         <h4 class="trainer-title">David Schwartz</h4>
+        <a value="toggle", class="read-more-link", data-toggle="modal" data-target="#davidModal">Read More</a>
       </div>
 
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <%= image_tag("nickkratos-opted.jpg", class: "img-responsive nick-img") %>
         <h4 class="trainer-title">Nick Reimers</h4>
+        <a value="toggle", class="read-more-link", data-toggle="modal" data-target="#nickModal">Read More</a>
       </div>
-
     </div>
+
     <br>
+    <br>
+
     <div class="row">
       
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
         <%= image_tag("optimized-daltonheadshot.jpg", class: "img-responsive dalton-img") %>
         <h4 class="trainer-title">Dalton Barnard</h4>
+        <a value="toggle", class="read-more-link", data-toggle="modal" data-target="#daltonModal">Read More</a>
       </div>
 
       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
         <%= image_tag("chanceheadshot2.jpg", class: "img-responsive chance-img") %>
         <h4 class="trainer-title">Chance Baumann</h4>
+        <a value="toggle", class="read-more-link", data-toggle="modal" data-target="#chanceModal">Read More</a>
       </div>
 
     </div>
@@ -233,3 +245,4 @@
 </script>
 </body>
 
+<!-- http://via.placeholder.com/350x150  placeholder example for development -->

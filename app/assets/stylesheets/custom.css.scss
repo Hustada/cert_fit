@@ -300,8 +300,13 @@ a:focus {
 
 /* adjust pic with height, center with margin 0 auto, then experiment works well */
 
-.trainer-title {
+
+.trainer-box .trainer-title {
   text-align: center;
+}
+
+.read-more-link {
+  margin-left: 35%;
 }
 
 #trainer {
