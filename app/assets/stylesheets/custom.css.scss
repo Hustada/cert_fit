@@ -63,6 +63,8 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
+  border-radius: 3px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.5);
 }
 
 
@@ -297,6 +299,10 @@ a:focus {
 /* Trainer Section */
 
 /* adjust pic with height, center with margin 0 auto, then experiment works well */
+
+.trainer-title {
+  text-align: center;
+}
 
 #trainer {
   color: #666;
