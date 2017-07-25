@@ -51,6 +51,12 @@
     #trainer-image {
       margin-top: 10%
     }
+    .kratos-logo {
+      height: 160px;
+      margin-bottom: 80px;
+      margin-top: 125px;
+      margin-left: 1%;
+    }
 
 }
 
@@ -58,9 +64,9 @@
 
     .kratos-logo {
       height: 160px;
-      margin-bottom: 50px;
+      margin-bottom: 80px;
       margin-top: 125px;
-      margin-left: 9%;
+      margin-left: 1%;
     }
 
     .dalton-img {
