@@ -10,6 +10,7 @@ gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
 gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 gem "paperclip"
 gem 'jquery-rails'
 gem 'jbuilder'

@@ -20,7 +20,7 @@ class ArticlesController < ApplicationController
 
 	def index
 		@user = current_user
-		@articles = Article.all.order('created_at DESC').paginate(page: params[:page],per_page: 1)
+		@articles = Article.all.order('created_at DESC').paginate(page: params[:page],per_page: 6)
 		@popular_articles = Article.all.order('created_at DESC').paginate(page: params[:page],per_page: 4)
 		@recent_article = Article.order("created_at").last
 	end
