@@ -1,11 +1,14 @@
-<div class="page-header articles-header">
-  <h1>Articles</h1>
+<html>
+<div class="article-page-header">
+	<div class="page-header articles-header">
+	  <h1>Articles</h1>
+	</div>
 </div>
+	<div id="my-posts">
+	  <%= render @articles %>
+	</div>
 
-<div id="my-posts">
-  <%= render @articles %>
-</div>
-
-<div id="infinite-scrolling" class="center-loading">
-  <%= will_paginate %>
-</div>
+	<div id="infinite-scrolling" class="center-loading">
+	  <%= will_paginate %>
+	</div>
+</html>
