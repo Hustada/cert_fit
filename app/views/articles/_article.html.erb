@@ -1,6 +1,5 @@
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
+
+	
 			<div class="index-article-container">
 				<h3 class="index-article-title"><%= link_to article.title, article_path(article) %></h3>
 			  <small><em>posted <%= time_ago_in_words article.created_at %> ago</em></small>
@@ -9,6 +8,3 @@
 				<img src="http://via.placeholder.com/650x250" class="img-fluid index-article-image" alt="Responsive image">
 			  <p><%= truncate(strip_tags(article.body), length: 600) %></p>
 		 </div>
-	  </div>
-  </div>
-</div>
