@@ -1,25 +1,11 @@
-<html>
-	<div id="article-index-body">
-		<div class="container">
-		<% @articles.each do |article| %>
-			<div class="row">
-				<div class="col-xs-12 col-sm-3 col-md-3">
-					<img src="http://via.placeholder.com/200X200" class="img-article-index" alt="">
-				</div>
-				<div class="col-xs-12 col-sm-9 col-md-9">
-					<div class="index-article-text">
-						<h4><%=link_to "#{article.title}", article %></h4>
-							<p>
-								<%= article.body.truncate(300) %>
-							</p>
-							<i>posted <%= time_ago_in_words article.created_at %> ago</i>
-						</div>
-					</div>
-				</div>
-				<% end %>
-				<center>
-				<%= will_paginate(@articles, :renderer => WillPaginate::ActionView::LinkRenderer) %>
-				</center>
-			</div>
-		</div>
-</html>
+<div class="page-header">
+  <h1>My Articles</h1>
+</div>
+
+<div id="my-posts">
+  <%= render @articles %>
+</div>
+
+<div id="infinite-scrolling">
+  <%= will_paginate %>
+</div>

@@ -20,11 +20,11 @@ class ArticlesController < ApplicationController
 
 	def index
 		@user = current_user
-		@articles = Article.all.order('created_at DESC').paginate(page: params[:page],per_page: 20)
+		@articles = Article.paginate(page: params[:page], per_page: 15).order('created_at DESC')
 		respond_to do |format|
-        format.html
-        format.js
-    end
+		  format.html
+		  format.js
+		end
 		@popular_articles = Article.all.order('created_at DESC').paginate(page: params[:page],per_page: 4)
 		@recent_article = Article.order("created_at").last
 	end
