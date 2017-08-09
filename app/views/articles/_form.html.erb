@@ -6,6 +6,9 @@
 
 		  <%= f.text_area :body, placeholder: 'Post content', class: "col-xs-12 article-text-input" %>
 
+		  <%= f.label :image %>
+			<%= f.file_field :image, class: 'u-full-width' %>
+			<br>
 		  <%= f.button :submit %>
 		<% end %>
 	</div>
