@@ -35,7 +35,7 @@ class ArticlesController < ApplicationController
 
 	def update
 		@article = Article.find(params[:id])
-		if @article.update(params[:article].permit(:title, :body)) #, :image, :header, add later
+		if @article.update(params[:article].permit(:title, :body, :image)) # :header, add later
 			redirect_to @article
 		else
 			render 'edit'
@@ -45,7 +45,7 @@ class ArticlesController < ApplicationController
 	def destroy
 		@article = Article.find(params[:id])
 		@article.destroy
-		redirect_to root_path
+		redirect_to articles_path
 	end
 
 	def truncation
@@ -56,6 +56,6 @@ class ArticlesController < ApplicationController
 private
 
 	def article_params
-		params.require(:article).permit(:title, :body)  #add these later :image, :header, :video_url
+		params.require(:article).permit(:title, :body, :image)  #add these later :header, :video_url
 	end
 end
