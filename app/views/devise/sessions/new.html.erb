@@ -15,7 +15,9 @@
 
 					  <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
 
-					  <%= f.button :submit, "Log in" %>
+					  <%= f.button :submit, "Log in" %>  or 
+
+					  <%= link_to 'Sign Up', new_user_registration_path, class: "btn btn-default" %>
 					<% end %>
 					<br>
 					<%= link_to 'Login with Google', user_google_oauth2_omniauth_authorize_path, class: "btn btn-default" %>

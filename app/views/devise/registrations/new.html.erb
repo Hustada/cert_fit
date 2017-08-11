@@ -14,7 +14,9 @@
 
 					  <%= f.input :password_confirmation, placeholder: 'Confirm Password', label: false %>
 
-					  <%= f.button :submit %>
+					  <%= f.button :submit %>  or 
+
+					   <%= link_to 'Sign In', new_user_session_path, class: "btn btn-default" %>
 					<% end %>
 					<br>
 					<%= link_to 'Sign up with Google', user_google_oauth2_omniauth_authorize_path, class: "btn btn-default" %>
