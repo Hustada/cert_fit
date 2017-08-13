@@ -313,11 +313,6 @@ a:focus {
   text-align: center;
 }
 
-.read-more-link {
-  margin-left: 29%;
-  margin-bottom: 30%;
-}
-
 #trainer {
   color: #666;
   background-color: #E4E5E4;
@@ -367,6 +362,10 @@ a:focus {
   border-radius: 3px;
   margin: 0 auto;
   box-shadow: 0 15px 30px rgba(0,0,0,0.5);
+}
+
+.img-responsive.dalton {
+  width: 475px;
 }
 
 .trainer-cody,  .trainer-david, .trainer-nick {
