@@ -36,7 +36,7 @@
            <% if user_signed_in? %>
           <li><%=link_to 'logout', destroy_user_session_path, method: "delete" %></li>
             <% else %>
-          <li><%=link_to 'Admin Login', new_user_session_path %></li>
+          
             <% end %>
         </ul>
       </div>
