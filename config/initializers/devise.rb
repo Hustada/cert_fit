@@ -266,11 +266,7 @@ Devise.setup do |config|
     config.omniauth :facebook, ENV["facebook_app_id"], ENV["facebook_app_secret"],
     scope: 'email', info_fields: 'email,name'
 
-    config.omniauth :google_oauth2, ENV["google_app_id"], ENV["google_app_secret"],
-    { scope: 'email',
-      label: 'Google',
-      prompt: 'select_account',
-      access_type: 'online'
+    config.omniauth :google_oauth2, ENV["google_app_id"], ENV["google_app_secret"],{ 
     }
   end
 
