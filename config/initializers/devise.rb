@@ -256,10 +256,7 @@ Devise.setup do |config|
     config.omniauth :facebook, ENV["facebook_live_app_id"], ENV["facebook_live_app_secret"],
     scope: 'email', info_fields: 'email,name'
 
-    config.omniauth :google_oauth2, ENV["google_live_app_id"], ENV["google_live_app_secret"],
-    { scope: 'email',
-      prompt: 'select_account',
-      access_type: 'online'
+    config.omniauth :google_oauth2, ENV["google_live_app_id"], ENV["google_live_app_secret"],{ 
     }
 
   elsif Rails.env.development?
