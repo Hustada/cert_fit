@@ -256,7 +256,7 @@ Devise.setup do |config|
     config.omniauth :facebook, ENV["facebook_live_app_id"], ENV["facebook_live_app_secret"],
     scope: 'email', info_fields: 'email,name'
 
-    config.omniauth :google_oauth2, ENV["google_live_app_id"], ENV["google_live_app_secret"],
+    config.omniauth :google_oauth2, ENV["GOOGLE_LIVE_APP_ID"], ENV["GOOGLE_LIVE_APP_SECRET"],
     { 
       access_type: 'online'
     }
