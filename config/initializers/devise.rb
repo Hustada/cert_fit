@@ -262,7 +262,7 @@ Devise.setup do |config|
     }
 
   elsif Rails.env.development?
-    config.omniauth :facebook, ENV["facebook_app_id"], ENV["facebook_app_secret"],
+    config.omniauth :facebook, ENV["FACEBOOK_TEST_ID"], ENV["FACEBOOK_TEST_SECRET"],
     scope: 'email', info_fields: 'email,name'
 
     config.omniauth :google_oauth2, ENV["google_app_id"], ENV["google_app_secret"],{ 
