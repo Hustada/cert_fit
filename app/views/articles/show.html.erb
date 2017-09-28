@@ -1,14 +1,11 @@
 
 <body id="form-body">
 <%= render 'shared/alt-header' %>
-<head>
-<meta property="og:site_name" content="https://www.kratospf.com">
-<meta property="fb:app_id" content="120566715320843">
-<meta property="og:url" content="<%= article_url(@article) %>" />
-<meta property="og:title" content="Product name">
-<meta property="og:description" content="<%= @article.body %>" />
-<meta property="og:image" content="<%= @article.image.url %>" />
-</head>
+<%= display_meta_tags title: "#{@article.title}",
+											description: "#{@article.body}",
+											image: "#{@article.image.url}",
+											url: "#{article_url(@article)}" %>
+
 	<div class="container">
 		<div class="article-container">
 			<h2><%= @article.title %></h2>

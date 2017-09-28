@@ -31,6 +31,7 @@ gem 'bootstrap-sass'
 gem 'sprockets-rails'
 gem 'rails_real_favicon'
 gem 'slick_rails'
+gem 'meta-tags'
 
 # For sign in with google
 gem "omniauth-google-oauth2", "~> 0.2.1"
