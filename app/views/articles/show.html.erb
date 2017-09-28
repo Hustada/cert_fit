@@ -1,10 +1,14 @@
 
 <body id="form-body">
 <%= render 'shared/alt-header' %>
-<%= display_meta_tags title: "#{@article.title}",
-											description: "#{@article.body}",
-											image: "#{@article.image.url}",
-											url: "#{article_url(@article)}" %>
+
+<% set_meta_tags :og => {
+                  :title    => "#{@article.title}",
+                  :description => "#{@article.body}",
+                  :type     => 'article',
+                  :url      => "#{article_url(@article)}",
+                  :image    => "#{@article.image.url}",
+                  } %>
 
 	<div class="container">
 		<div class="article-container">
