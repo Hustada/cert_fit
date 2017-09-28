@@ -2,19 +2,12 @@
 <body id="form-body">
 <%= render 'shared/alt-header' %>
 <head>
-<meta property="og:url" content="http://www.kratospf.com" />
-
-<meta property="og:title" content="Kratos Performance Fitness" />
-
-<meta property="og:description" content="Kratos defined - is the personification of strength and power in Greek mythology. That is our roots here at Kratos, we have an Old School mentality of training combined with the newest research to deliver a top-notch product." />
-
-<meta property="og:image" content="<%= asset_path('kratos8-opted.jpg') %>">
-
-<meta name="description" content='Kratos defined- is the personification of strength and power in Greek mythology. That is our roots here at Kratos, we have an Old School mentality of training combined with the newest research to deliver a top-notch product.' />
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-<meta name="description" content='Kratos defined- is the personification of strength and power in Greek mythology. That is our roots here at Kratos, we have an Old School mentality of training combined with the newest research to deliver a top-notch product.' />
+<meta property="og:site_name" content="https://www.kratospf.com">
+<meta property="fb:app_id" content="120566715320843">
+<meta property="og:url" content="<%= article_url(@article) %>" />
+<meta property="og:title" content="Product name">
+<meta property="og:description" content="<%= @article.body %>" />
+<meta property="og:image" content="<%= @article.image.url %>" />
 </head>
 	<div class="container">
 		<div class="article-container">
