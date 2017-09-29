@@ -19,7 +19,7 @@ class ArticlesController < ApplicationController
 		set_meta_tags :og => {
                   :title    => "#{@article.title}",
                   :description => "#{@article.body}",
-                  :type     => 'article',
+                  :type     => "Blog article",
                   :url      => "#{article_url(@article)}",
                   :image    => "#{@article.image.url}",
                   } 
