@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   get '/table' => 'static_pages#table'
 
+  get '/staff' => 'static_pages#staff'
+
   get '/new-index' => 'static_pages#new_index'
 
   # get 'practice' => 'static_pages#practice'
