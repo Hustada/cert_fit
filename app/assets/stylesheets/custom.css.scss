@@ -38,6 +38,7 @@ body {
   height: 100%;
   background-color: #000;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  overflow-x: hidden;
 }
 
 .light-section {
@@ -209,6 +210,7 @@ a:focus {
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: black;
+  max-width: 100%;
 }
 .navbar-custom .navbar-toggle {
   color: white;
