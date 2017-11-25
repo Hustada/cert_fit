@@ -1,3 +1,15 @@
+@import "bootstrap";
+@import "bootstrap-sprockets";
+@import "ionicons";
+@import "font-awesome.css";
+@import "staff.scss";
+@import "articles-index.scss";
+@import "custom.scss";
+@import "form.scss";
+@import "queries.scss";
+@import "table.scss";
+@import "slick.scss";
+@import "slick-theme.scss";
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
@@ -16,7 +28,3 @@
  *= require font-awesome
  *= require slick
  */
- @import "bootstrap";
- @import "bootstrap-sprockets";
- @import "ionicons";
- @import "font-awesome.css"
